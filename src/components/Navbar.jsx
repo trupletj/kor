@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
       </div>
       {menuDropDownShow && (
-        <div className="absolute top-12 left-0 bg-[#1B1C1E] text-white text-xl">
+        <div className="absolute top-12 left-0 bg-[#1B1C1E] text-white text-2xl">
           <ul>
             <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
               통합조회
@@ -60,7 +60,7 @@ const Navbar = () => {
         </div>
       )}
       {settingsDropDownShow && (
-        <div className="absolute top-12 right-0 bg-[#1B1C1E] text-white text-xl ">
+        <div className="absolute top-12 right-0 bg-[#1B1C1E] text-white text-2xl ">
           <ul>
             <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
               마이페이지
