@@ -7,7 +7,7 @@ import BurgerMenu from "../assets/BurgerMenu";
 
 const Home = () => {
   return (
-    <div className="relative h-screen max-w-[550px] mx-auto">
+    <div className="absolute top-0 bottom-0 left-0 right-0 mb-auto max-w-[550px] mx-auto">
       <header
         className="w-full h-16 bg-[#1B1C1E]
                     absolute left-0 top-0
