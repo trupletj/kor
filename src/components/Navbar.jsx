@@ -27,7 +27,7 @@ const Navbar = () => {
               px-2 text-[#D9DAD9] text-2xl
 "
       >
-        <div className="w-1/3">
+        <div className="w-1/3 flex items-center">
           <button className="" type="button" onClick={handleMenuButton}>
             <MdMenu />
           </button>
