@@ -1,13 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { MdMenu, MdSearch, MdSettings } from "react-icons/md";
 
-import Search from "../assets/Search";
 import Logo from "../assets/Logo";
-import Settings from "../assets/Settings";
-import BurgerMenu from "../assets/BurgerMenu";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [menuDropDownShow, setMenuDropDownShow] = useState(false);
   const [settingsDropDownShow, setSettingsDropDownShow] = useState(false);
 
@@ -33,8 +31,8 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="w-1/3 flex items-center justify-center">
-          <Logo />
+        <div className="w-1/3 flex items-center justify-center text-base">
+          {props.title ? props.title : <Logo />}
         </div>
 
         <div className="flex flex-row w-1/3 justify-end items-center">
@@ -48,7 +46,7 @@ const Navbar = () => {
         <div className="absolute top-12 left-0 bg-[#1B1C1E] text-white text-2xl">
           <ul>
             <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
-              통합조회
+              <Link>통합조회</Link>
             </li>
             <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
               제품조회
@@ -63,7 +61,7 @@ const Navbar = () => {
         <div className="absolute top-12 right-0 bg-[#1B1C1E] text-white text-2xl ">
           <ul>
             <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
-              마이페이지
+              <Link to={"/user"}>마이페이지</Link>
             </li>
             <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
               로그아웃

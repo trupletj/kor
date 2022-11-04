@@ -1,11 +1,14 @@
 import React from "react";
+
 import Container from "../components/Container";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Form from "../components/UserForm";
+import Wrapper from "../components/Wrapper";
 
 const Home = () => {
   return (
-    <div className="absolute top-0 bottom-0 left-0 right-0 mb-auto max-w-[576px] mx-auto">
+    <Wrapper>
       <Navbar />
       <Container>
         <div className="grid grid-cols-2 text-2xl my-10">
@@ -25,7 +28,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="px-3">
+        <div className="">
           <h1 className="text-2xl text-center mb-6">사용중인 법령 정보</h1>
           <ul className="text-lg">
             <li className="mb-2">▶ 어린이제품 안전특별법</li>
@@ -37,7 +40,7 @@ const Home = () => {
         </div>
       </Container>
       <Footer />
-    </div>
+    </Wrapper>
   );
 };
 
