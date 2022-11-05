@@ -7,8 +7,7 @@ import ProductList from "../components/ProductList";
 import SelectModal from "../components/SelectModal";
 import Sort from "../components/Sort";
 import Wrapper from "../components/Wrapper";
-
-const ProductInquiry = () => {
+const ProductDetails = () => {
   return (
     <Wrapper>
       <Navbar title="통합조회" />
@@ -25,4 +24,4 @@ const ProductInquiry = () => {
   );
 };
 
-export default ProductInquiry;
+export default ProductDetails;

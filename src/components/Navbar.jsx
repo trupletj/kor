@@ -31,7 +31,7 @@ const Navbar = (props) => {
           </button>
         </div>
 
-        <div className="w-1/3 flex items-center justify-center text-base">
+        <div className="w-1/3 flex items-center justify-center text-base text-white">
           {props.title ? props.title : <Logo />}
         </div>
 
