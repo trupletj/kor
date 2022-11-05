@@ -3,13 +3,17 @@ import React from "react";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import SelectModal from "../components/SelectModal";
+import Sort from "../components/Sort";
 import Wrapper from "../components/Wrapper";
 
-const Products = () => {
+const ProductInquiry = () => {
   return (
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
+        <SelectModal />
+        <Sort />
         <section className="border-b-2 mb-4 last:mb-0">
           <ul>
             <li>
@@ -113,9 +117,8 @@ const Products = () => {
           </ul>
         </section>
       </Container>
-      <Footer />
     </Wrapper>
   );
 };
 
-export default Products;
+export default ProductInquiry;

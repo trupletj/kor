@@ -14,7 +14,6 @@ export default function UserForm() {
 
   return (
     <div className="flex flex-col">
-      <h1 className="text-right">정렬 ↓↑</h1>
       <div className="flex flex-row border-b w-full mb-2 pb-2">
         <p className="mr-2">ID</p>
         <p>securenet1</p>

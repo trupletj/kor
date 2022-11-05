@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { MdArrowBackIos, MdMenu, MdCropSquare } from "react-icons/md";
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <footer
       className="w-full h-12 bg-[#1B1C1E]
@@ -11,8 +13,12 @@ const Footer = () => {
 "
     >
       <MdMenu className="rotate-90" />
-      <MdCropSquare />
-      <MdArrowBackIos />
+      <button onClick={() => navigate("/")}>
+        <MdCropSquare />
+      </button>
+      <button onClick={() => navigate(-1)}>
+        <MdArrowBackIos />
+      </button>
     </footer>
   );
 };

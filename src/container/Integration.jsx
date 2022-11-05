@@ -3,6 +3,7 @@ import React from "react";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Sort from "../components/Sort";
 import Wrapper from "../components/Wrapper";
 
 const Integration = () => {
@@ -10,6 +11,8 @@ const Integration = () => {
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
+        <Sort />
+
         <section className="border-b-2 mb-4 last:mb-0">
           <ul>
             <li>
@@ -113,7 +116,6 @@ const Integration = () => {
           </ul>
         </section>
       </Container>
-      <Footer />
     </Wrapper>
   );
 };

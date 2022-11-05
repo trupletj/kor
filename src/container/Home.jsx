@@ -39,7 +39,6 @@ const Home = () => {
           </ul>
         </div>
       </Container>
-      <Footer />
     </Wrapper>
   );
 };
