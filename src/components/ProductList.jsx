@@ -19,7 +19,7 @@ const ProductList = () => {
             />
           </div>
           <div className="w-3/4 flex flex-col justify-between  pl-2 mb-3">
-            <Link to="/" className="font-bold">
+            <Link to="/product-details" className="font-bold">
               영유아 원목 장난감
             </Link>
             <span>
@@ -39,7 +39,12 @@ const ProductList = () => {
         </div>
       </div>
       {show && (
-        <Swiper slidesPerView={4} spaceBetween={10} modules={[Navigation]}>
+        <Swiper
+          className="mb-2"
+          slidesPerView={4}
+          spaceBetween={10}
+          modules={[Navigation]}
+        >
           <SwiperSlide>
             <img src="https://picsum.photos/200/300"></img>
           </SwiperSlide>

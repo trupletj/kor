@@ -45,13 +45,22 @@ const Navbar = (props) => {
       {menuDropDownShow && (
         <div className="absolute top-12 left-0 bg-[#1B1C1E] text-white text-2xl">
           <ul>
-            <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
+            <li
+              onClick={() => setMenuDropDownShow(false)}
+              className="py-3 px-6 border-b border-[#D9DAD9] last:border-none"
+            >
               <Link to="/integrate">통합조회</Link>
             </li>
-            <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
+            <li
+              onClick={() => setMenuDropDownShow(false)}
+              className="py-3 px-6 border-b border-[#D9DAD9] last:border-none"
+            >
               <Link to="/products">제품조회</Link>
             </li>
-            <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none ">
+            <li
+              onClick={() => setMenuDropDownShow(false)}
+              className="py-3 px-6 border-b border-[#D9DAD9] last:border-none "
+            >
               <Link to="/outgoing">발신정보</Link>
             </li>
           </ul>

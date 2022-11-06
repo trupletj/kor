@@ -12,13 +12,11 @@ const ProductDetails = () => {
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
-        <SelectModal />
+        <div className="">
+          <h1 className="w-full text-center bg-[#D7D7D7] p-1">상세정보</h1>
+        </div>
         <Sort />
-        <ul>
-          <li className="border-b-2 mb-4 last:mb-0 px-2 text-sm">
-            <ProductList />
-          </li>
-        </ul>
+        <div></div>
       </Container>
     </Wrapper>
   );

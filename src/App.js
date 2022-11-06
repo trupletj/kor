@@ -5,6 +5,7 @@ import Home from "./container/Home";
 import Integration from "./container/Integration";
 import MyPage from "./container/MyPage";
 import OutgoingInformation from "./container/OutgoingInformation";
+import ProductDetails from "./container/ProductDetails";
 import ProductInquiry from "./container/ProductInquiry";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Route path="/user" element={<MyPage />} />
       <Route path="/integrate" element={<Integration />} />
       <Route path="/products" element={<ProductInquiry />} />
+      <Route path="/product-details" element={<ProductDetails />} />
       <Route path="/outgoing" element={<OutgoingInformation />} />
       <Route path="/*" element={<Home />} />
     </Routes>
