@@ -36,17 +36,21 @@ const Home = () => {
             사용중인 법령 정보
           </h1>
           <ul className="text-lg">
-            <li className="mb-2 flex items-center">
-              <AiFillCaretRight className="w-1/12" />
-              <h1>{"어린이제품 안전특별법"}</h1>
+            <li className="mb-2 flex items-start">
+              <AiFillCaretRight className="w-1/12 my-1" />
+              <h1 className="w-11/12">{"어린이제품 안전특별법"}</h1>
             </li>
-            <li className="mb-2 flex items-center">
-              <AiFillCaretRight className="w-1/12" />
-              <h1>{" 전기용품 및 생활용품 안전관리법(생활)"}</h1>
+            <li className="mb-2 flex items-start">
+              <AiFillCaretRight className="w-1/12 my-1" />
+              <h1 className="w-11/12">
+                {" 전기용품 및 생활용품 안전관리법(생활)"}
+              </h1>
             </li>
-            <li className="mb-2 flex items-center">
-              <AiFillCaretRight className="w-1/12" />
-              <h1>{"방송통신 기자재등의 적합성 평가에 관한 고시 (전파법)"}</h1>
+            <li className="mb-2 flex items-start">
+              <AiFillCaretRight className="w-1/12 my-1" />
+              <h1 className="w-11/12">
+                {"방송통신 기자재등의 적합성 평가에 관한 고시 (전파법)"}
+              </h1>
             </li>
           </ul>
         </div>
