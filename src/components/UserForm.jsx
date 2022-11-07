@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 export default function UserForm() {
   const {
@@ -26,6 +27,7 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="password"
+            value="password"
             placeholder="password"
             {...register("password", { required: true, maxLength: 80 })}
           />
@@ -35,6 +37,7 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="password"
+            value="password"
             placeholder="confirmPassword"
             {...register("confirmPassword", { required: true, maxLength: 80 })}
           />
@@ -44,6 +47,7 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="text"
+            value="이정재"
             placeholder="이정재"
             {...register("contactPerson", { required: true })}
           />
@@ -53,6 +57,7 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="tel"
+            value={"02-470-2080"}
             placeholder="02-470-2080"
             {...register("extensionNumber", {})}
           />
@@ -62,6 +67,7 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="tel"
+            value={"010-1122-3344"}
             placeholder="010-1122-3344"
             {...register("number", { required: true, maxLength: 12 })}
           />
@@ -71,6 +77,7 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="text"
+            value="nice@securenet.kr"
             placeholder="nice@securenet.kr"
             {...register("Email", { required: true, pattern: /^\S+@\S+$/i })}
           />
@@ -80,14 +87,14 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="text"
-            placeholder="note"
             {...register("note", { required: true })}
           />
         </div>
         <div className="w-full flex ">
           <div className="w-1/4">권한</div>
           <div className="w-3/4  text-[#D9DAD9] mb-2 text-right">
-            파일업로드 / 성적서연결관리 / 발신
+            <Link to="/"> 파일업로드</Link> /{" "}
+            <Link to="/"> 성적서연결관리</Link> /<Link to="/"> 발신</Link>
           </div>
         </div>
         <div className="flex justify-center">
