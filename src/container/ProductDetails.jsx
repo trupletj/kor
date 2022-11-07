@@ -1,5 +1,5 @@
 import React from "react";
-import { BsChevronCompactLeft } from "react-icons/bs";
+import { BsChevronCompactLeft, BsChevronRight } from "react-icons/bs";
 
 import Container from "../components/Container";
 import Footer from "../components/Footer";
@@ -18,8 +18,8 @@ const ProductDetails = () => {
           </div>
           <h1 className="">상세정보</h1>
         </div>
-        <div className="mb-2 pb-2">
-          <table className="table-auto">
+        <div className="mb-4 border-b-2 pb-2">
+          <table className="table-auto text-sm">
             <tbody>
               <tr>
                 <td className="font-bold">어린이제품명</td>
@@ -52,82 +52,107 @@ const ProductDetails = () => {
             </tbody>
           </table>
         </div>
-        <div className="my-4">
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <input
-                id="default-checkbox"
-                type="checkbox"
-                className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-900 checked:appearance-none checked:bg-rose-600"
-              />
-              <div className="">
-                <div className="flex w-full text-sm">
-                  <div className="w-1/4 aspect-square overflow-hidden">
-                    <img
-                      src="https://picsum.photos/200/600 "
-                      className="object-cover h-28 w-28 "
-                    />
-                  </div>
-                  <div className="w-3/4 flex flex-col justify-center  pl-2">
-                    <p>영유아 원목 장난감</p>
-                    <p>{"(B064R1114-2001)"}</p>
-                  </div>
+        <div className="my-6">
+          <div className="flex items-center justify-between mb-2">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+            />
+            <div className="w-full">
+              <div className="flex w-full text-sm">
+                <div className="w-1/5 aspect-square overflow-hidden">
+                  <img
+                    src="https://picsum.photos/200/600 "
+                    className="object-cover h-28 w-28 "
+                  />
+                </div>
+                <div className="w-4/5 flex flex-col justify-center  pl-2">
+                  <p>영유아 원목 장난감</p>
+                  <p>{"(B064R1114-2001)"}</p>
                 </div>
               </div>
-              <button>{">"}</button>
             </div>
+            <button>
+              <BsChevronRight />
+            </button>
           </div>
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <input
-                id="default-checkbox"
-                type="checkbox"
-                className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-900 checked:appearance-none checked:bg-rose-600"
-              />
-              <div className="">
-                <div className="flex w-full text-sm ">
-                  <div className="w-1/4 aspect-square overflow-hidden">
-                    <img
-                      src="https://picsum.photos/200/600 "
-                      className="object-cover h-28 w-28 "
-                    />
-                  </div>
-                  <div className="w-3/4 flex flex-col justify-center  pl-2">
-                    <p>영유아 원목 장난감</p>
-                    <p>{"(B064R1114-2001)"}</p>
-                  </div>
+          <div className="flex items-center justify-between mb-2">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+            />
+            <div className="w-full">
+              <div className="flex w-full text-sm">
+                <div className="w-1/5 aspect-square overflow-hidden">
+                  <img
+                    src="https://picsum.photos/200/600 "
+                    className="object-cover h-28 w-28 "
+                  />
+                </div>
+                <div className="w-4/5 flex flex-col justify-center  pl-2">
+                  <p>영유아 원목 장난감</p>
+                  <p>{"(B064R1114-2001)"}</p>
                 </div>
               </div>
-              <button>{">"}</button>
             </div>
+            <button>
+              <BsChevronRight />
+            </button>
           </div>
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <input
-                id="default-checkbox"
-                type="checkbox"
-                className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-900 checked:appearance-none checked:bg-rose-600"
-              />
-              <div className="">
-                <div className="flex w-full text-sm ">
-                  <div className="w-1/4 aspect-square overflow-hidden">
-                    <img
-                      src="https://picsum.photos/200/600 "
-                      className="object-cover h-28 w-28 "
-                    />
-                  </div>
-                  <div className="w-3/4 flex flex-col justify-center  pl-2">
-                    <p>영유아 원목 장난감</p>
-                    <p>{"(B064R1114-2001)"}</p>
-                  </div>
+          <div className="flex items-center justify-between mb-2">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+            />
+            <div className="w-full">
+              <div className="flex w-full text-sm">
+                <div className="w-1/5 aspect-square overflow-hidden">
+                  <img
+                    src="https://picsum.photos/200/600 "
+                    className="object-cover h-28 w-28 "
+                  />
+                </div>
+                <div className="w-4/5 flex flex-col justify-center  pl-2">
+                  <p>영유아 원목 장난감</p>
+                  <p>{"(B064R1114-2001)"}</p>
                 </div>
               </div>
-              <button>{">"}</button>
             </div>
+            <button>
+              <BsChevronRight />
+            </button>
+          </div>
+          <div className="flex items-center justify-between mb-2">
+            <input
+              id="default-checkbox"
+              type="checkbox"
+              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+            />
+            <div className="w-full">
+              <div className="flex w-full text-sm">
+                <div className="w-1/5 aspect-square overflow-hidden">
+                  <img
+                    src="https://picsum.photos/200/600 "
+                    className="object-cover h-28 w-28 "
+                  />
+                </div>
+                <div className="w-4/5 flex flex-col justify-center  pl-2">
+                  <p>영유아 원목 장난감</p>
+                  <p>{"(B064R1114-2001)"}</p>
+                </div>
+              </div>
+            </div>
+            <button>
+              <BsChevronRight />
+            </button>
           </div>
         </div>
+
         <div className="w-full flex items-center justify-center my-2">
-          <button className="bg-[#2E3192] text-white px-4 py-1 rounded">
+          <button className="bg-[#2E3192] text-white px-10 py-1 rounded">
             문 서 발 송
           </button>
         </div>
