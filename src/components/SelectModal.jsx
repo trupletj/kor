@@ -35,7 +35,7 @@ const SelectModal = () => {
                   return (
                     <button
                       key={i}
-                      className="border-b-2 border-[#D9DAD9] p-2"
+                      className="border-b-2 border-[#D9DAD9] p-2 overflow-hidden"
                       onClick={() => handleSelectOption(i)}
                     >
                       {option}

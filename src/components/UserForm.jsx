@@ -85,7 +85,7 @@ export default function UserForm() {
           />
         </div>
         <div className="w-full flex ">
-          <div className="w-1/4">권한</div>
+          <div className="w-1/4 font-bold">권한</div>
           <div className="w-3/4  text-[#D9DAD9] mb-2 text-right">
             <Link to="/"> 파일업로드</Link> /{" "}
             <Link to="/"> 성적서연결관리</Link> /<Link to="/"> 발신</Link>

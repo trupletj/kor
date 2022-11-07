@@ -19,6 +19,12 @@ const ProductInquiry = () => {
           <li className="border-b-2 mb-4 last:mb-0 px-2 text-sm">
             <ProductListItem />
           </li>
+          <li className="border-b-2 mb-4 last:mb-0 px-2 text-sm">
+            <ProductListItem />
+          </li>
+          <li className="border-b-2 mb-4 last:mb-0 px-2 text-sm">
+            <ProductListItem />
+          </li>
         </ul>
       </Container>
     </Wrapper>
