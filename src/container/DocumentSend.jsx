@@ -24,7 +24,7 @@ const DocumentSend = () => {
           <div className="w-full">
             <ul className="w-full border-b border-[#D9DAD9]">
               <li className="flex my-2">
-                <label className="w-1/4">E-mail</label>
+                <label className="w-1/4 font-bold">E-mail</label>
                 <input
                   className="border-b border-[#D9DAD9] mx-2 w-3/4"
                   type="text"
@@ -35,7 +35,7 @@ const DocumentSend = () => {
                 />
               </li>
               <li className="flex  my-2">
-                <label className="w-1/4">수신회사</label>
+                <label className="w-1/4 font-bold">수신회사</label>
                 <input
                   className="border-b border-[#D9DAD9] mx-2 w-3/4"
                   type="text"
@@ -43,7 +43,7 @@ const DocumentSend = () => {
                 />
               </li>
               <li className="flex  my-2">
-                <label className="w-1/4">수신자명</label>
+                <label className="w-1/4 font-bold">수신자명</label>
                 <input
                   className="border-b border-[#D9DAD9] mx-2 w-3/4"
                   type="text"
@@ -51,7 +51,7 @@ const DocumentSend = () => {
                 />
               </li>
               <li className="flex my-2">
-                <label className="w-1/4">제 목</label>
+                <label className="w-1/4 font-bold">제 목</label>
 
                 <input
                   className="border-b border-[#D9DAD9] mx-2 w-3/4 text-sm"
@@ -61,7 +61,7 @@ const DocumentSend = () => {
                 />
               </li>
               <li className="flex my-2 items-center">
-                <label className="w-1/4">Email</label>
+                <label className="w-1/4 font-bold">내 용</label>
 
                 <textarea
                   className="border border-[#D9DAD9] mx-2 w-3/4"

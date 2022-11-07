@@ -18,12 +18,15 @@ const SelectModal = () => {
   };
   return (
     <div className="mt-2 relative w-full ">
-      <div className="relative">
+      <div className="relative w-full">
         <button
-          className="w-full text-center bg-[#D7D7D7] p-1"
+          className="w-full text-left bg-[#D7D7D7] p-1"
           onClick={handleShowModal}
         >
           {options[selectedNum]}
+        </button>
+        <button className="absolute right-0 top-0 bottom-0 flex items-center justify-center bg-[#D7D7D7] text-xs px-4">
+          선택 ▼
         </button>
       </div>
       {modalShow && (
