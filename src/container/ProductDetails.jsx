@@ -54,7 +54,7 @@ const ProductDetails = () => {
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-4 h-4 mx-2   rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
               <div className="flex w-full text-sm">

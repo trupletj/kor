@@ -24,7 +24,7 @@ const Integration = () => {
                   />
                 </div>
                 <div className="flex flex-col justify-between  pl-2">
-                  <p>영유아 원목 장난감</p>
+                  <p className="font-bold">영유아 원목 장난감</p>
                   <span>
                     <p>{"어린이제품 안전특별법 > 안전확인"}</p>
                   </span>
@@ -47,7 +47,7 @@ const Integration = () => {
                   />
                 </div>
                 <div className="flex flex-col justify-between  pl-2">
-                  <p>영유아 원목 장난감</p>
+                  <p className="font-bold">영유아 원목 장난감</p>
                   <span>
                     <p>{"어린이제품 안전특별법 > 안전확인"}</p>
                   </span>
@@ -70,7 +70,7 @@ const Integration = () => {
                   />
                 </div>
                 <div className=" flex flex-col justify-between  pl-2">
-                  <p>영유아 원목 장난감</p>
+                  <p className="font-bold">영유아 원목 장난감</p>
                   <span>
                     <p>{"어린이제품 안전특별법 > 안전확인"}</p>
                   </span>
@@ -97,7 +97,7 @@ const Integration = () => {
                   />
                 </div>
                 <div className=" flex flex-col justify-between  pl-2">
-                  <p>영유아 원목 장난감</p>
+                  <p className="font-bold">영유아 원목 장난감</p>
                   <span>
                     <p>{"어린이제품 안전특별법 > 안전확인"}</p>
                   </span>
@@ -124,7 +124,7 @@ const Integration = () => {
                   />
                 </div>
                 <div className="flex flex-col justify-between  pl-2">
-                  <p>영유아 원목 장난감</p>
+                  <p className="font-bold">영유아 원목 장난감</p>
                   <span>
                     <p>{"어린이제품 안전특별법 > 안전확인"}</p>
                   </span>
