@@ -46,25 +46,25 @@ const ProductListItem = () => {
           modules={[Navigation]}
         >
           <SwiperSlide>
-            <img src="https://picsum.photos/200/300"></img>
+            <img src="https://picsum.photos/200/300?random=1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://picsum.photos/200/300"></img>
+            <img src="https://picsum.photos/200/300?random=2" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://picsum.photos/200/300"></img>
+            <img src="https://picsum.photos/200/300?random=3" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://picsum.photos/200/300"></img>
+            <img src="https://picsum.photos/200/300?random=4" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://picsum.photos/200/300"></img>
+            <img src="https://picsum.photos/200/300?random=5" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://picsum.photos/200/300"></img>
+            <img src="https://picsum.photos/200/300?random=6" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://picsum.photos/200/300"></img>
+            <img src="https://picsum.photos/200/300?random=7" />
           </SwiperSlide>
         </Swiper>
       )}

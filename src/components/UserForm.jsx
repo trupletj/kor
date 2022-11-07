@@ -14,7 +14,7 @@ export default function UserForm() {
   const inputClass = "border border-[#D9DAD9] rounded-sm px-2 mb-2";
 
   return (
-    <div className="flex flex-col text-sm">
+    <div className="flex flex-col ">
       <div className="flex flex-row border-b w-full mb-2 pb-2">
         <p className="mr-2 font-bold">ID</p>
         <p>securenet1</p>
@@ -27,7 +27,6 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="password"
-            value="password"
             placeholder="password"
             {...register("password", { required: true, maxLength: 80 })}
           />
@@ -37,7 +36,6 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="password"
-            value="password"
             placeholder="confirmPassword"
             {...register("confirmPassword", { required: true, maxLength: 80 })}
           />
@@ -47,7 +45,6 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="text"
-            value="이정재"
             placeholder="이정재"
             {...register("contactPerson", { required: true })}
           />
@@ -57,7 +54,6 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="tel"
-            value={"02-470-2080"}
             placeholder="02-470-2080"
             {...register("extensionNumber", {})}
           />
@@ -67,7 +63,6 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="tel"
-            value={"010-1122-3344"}
             placeholder="010-1122-3344"
             {...register("number", { required: true, maxLength: 12 })}
           />
@@ -77,7 +72,6 @@ export default function UserForm() {
           <input
             className={inputClass}
             type="text"
-            value="nice@securenet.kr"
             placeholder="nice@securenet.kr"
             {...register("Email", { required: true, pattern: /^\S+@\S+$/i })}
           />
