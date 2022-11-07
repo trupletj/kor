@@ -150,9 +150,12 @@ const ProductDetails = () => {
         </div>
 
         <div className="w-full flex items-center justify-center my-2">
-          <button className="bg-[#2E3192] text-white px-10 py-1 rounded">
+          <Link
+            to="/document-send"
+            className="bg-[#2E3192] text-white px-10 py-1 rounded"
+          >
             문 서 발 송
-          </button>
+          </Link>
         </div>
       </Container>
     </Wrapper>
