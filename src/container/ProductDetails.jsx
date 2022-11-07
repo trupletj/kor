@@ -19,7 +19,7 @@ const ProductDetails = () => {
           <h1 className="">상세정보</h1>
         </div>
         <div className="mb-4 border-b-2 pb-2">
-          <table className="table-auto text-sm">
+          <table className="table-auto text-sm w-full">
             <tbody>
               <tr>
                 <td className="font-bold">어린이제품명</td>
@@ -31,7 +31,7 @@ const ProductDetails = () => {
               </tr>
               <tr>
                 <td className="font-bold">안전기준상의 모델 </td>
-                <td> 작동완구, 영유아용 완구(3세 미만), 목재</td>
+                <td> 작동완구, 영유아용 완구(3세 미만)</td>
               </tr>
               <tr>
                 <td className="font-bold">제조국명 </td>
