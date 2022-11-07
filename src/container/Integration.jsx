@@ -65,7 +65,12 @@ const Integration = () => {
                     <p>{"어린이제품 안전특별법 > 안전확인"}</p>
                   </span>
                   <p>제조업체명 : Ningbo</p>
-                  <p>문서구분 : 인증서 (CB064R1114-2001)</p>
+                  <p className="">
+                    문서구분 :{" "}
+                    <span className=" text-[#008AFF]">
+                      인증서 (CB064R1114-2001)
+                    </span>
+                  </p>
                 </div>
               </div>
             </li>

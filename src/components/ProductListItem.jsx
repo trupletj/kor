@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 
-const ProductList = () => {
+const ProductListItem = () => {
   const [show, setShow] = useState(false);
   return (
     <div>
@@ -72,4 +72,4 @@ const ProductList = () => {
   );
 };
 
-export default ProductList;
+export default ProductListItem;

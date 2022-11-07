@@ -3,26 +3,22 @@ import React from "react";
 import Container from "../components/Container";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import ProductListItem from "../components/ProductListItem";
 import SelectModal from "../components/SelectModal";
 import Sort from "../components/Sort";
 import Wrapper from "../components/Wrapper";
-
-const ProductInquiry = () => {
+const OutgoingDetails = () => {
   return (
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
-        <SelectModal />
+        <div className="">
+          <h1 className="w-full text-center bg-[#D7D7D7] p-1">상세정보</h1>
+        </div>
         <Sort />
-        <ul>
-          <li className="border-b-2 mb-4 last:mb-0 px-2 text-sm">
-            <ProductListItem />
-          </li>
-        </ul>
+        <div></div>
       </Container>
     </Wrapper>
   );
 };
 
-export default ProductInquiry;
+export default OutgoingDetails;

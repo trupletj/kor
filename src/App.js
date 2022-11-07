@@ -4,6 +4,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import Home from "./container/Home";
 import Integration from "./container/Integration";
 import MyPage from "./container/MyPage";
+import OutgoingDetails from "./container/OutgoingDetails";
 import OutgoingInformation from "./container/OutgoingInformation";
 import ProductDetails from "./container/ProductDetails";
 import ProductInquiry from "./container/ProductInquiry";
@@ -16,6 +17,7 @@ const App = () => {
       <Route path="/products" element={<ProductInquiry />} />
       <Route path="/product-details" element={<ProductDetails />} />
       <Route path="/outgoing" element={<OutgoingInformation />} />
+      <Route path="/outgoing-details" element={<OutgoingDetails />} />
       <Route path="/*" element={<Home />} />
     </Routes>
   );

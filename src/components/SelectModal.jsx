@@ -17,8 +17,8 @@ const SelectModal = () => {
     setModalShow(!modalShow);
   };
   return (
-    <div className="mt-2">
-      <div className="">
+    <div className="mt-2 relative w-full ">
+      <div className="relative">
         <button
           className="w-full text-center bg-[#D7D7D7] p-1"
           onClick={handleShowModal}
@@ -28,9 +28,9 @@ const SelectModal = () => {
       </div>
       {modalShow && (
         <>
-          <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full px-4">
+          <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full px-4 z-50">
             <div className="relative top-14 mx-auto text-center ">
-              <div className=" w-full bg-[#D7D7D7]">
+              <div className=" w-full bg-[#D7D7D7] flex flex-col">
                 {options.map((option, i) => {
                   return (
                     <button
@@ -38,7 +38,7 @@ const SelectModal = () => {
                       className="border-b-2 border-[#D9DAD9] p-2"
                       onClick={() => handleSelectOption(i)}
                     >
-                      1 {option}
+                      {option}
                     </button>
                   );
                 })}

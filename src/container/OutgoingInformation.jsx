@@ -58,12 +58,14 @@ const OutgoingInformation = () => {
                 </div>
               </div>
               <div className="absolute bottom-2 right-2 text-xs">
-                <ul>
+                <ul className="flex flex-row">
                   <li>
-                    <span className="bg-[#D9DAD9] text-white p-0.5 rounded">
+                    <span className="bg-[#555555] text-white p-1 rounded ml-1 first:ml-0">
                       신고서
                     </span>
-                    <span className="bg-[#D9DAD9] text-white p-0.5 rounded ml-1">
+                  </li>
+                  <li>
+                    <span className="bg-[#555555] text-white p-1 rounded ml-1">
                       성적서 2
                     </span>
                   </li>
