@@ -13,56 +13,70 @@ export default function UserForm() {
   const inputClass = "border border-[#D9DAD9] rounded-sm px-2 mb-2";
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col text-sm">
       <div className="flex flex-row border-b w-full mb-2 pb-2">
-        <p className="mr-2">ID</p>
+        <p className="mr-2 font-bold">ID</p>
         <p>securenet1</p>
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col ">
-          <label htmlFor="">비밀번호</label>
+          <label className="font-bold my-1" htmlFor="">
+            비밀번호
+          </label>
           <input
             className={inputClass}
             type="password"
             placeholder="password"
             {...register("password", { required: true, maxLength: 80 })}
           />
-          <label htmlFor="">비밀번호 재확인</label>
+          <label className="font-bold my-1" htmlFor="">
+            비밀번호 재확인
+          </label>
           <input
             className={inputClass}
             type="password"
             placeholder="confirmPassword"
             {...register("confirmPassword", { required: true, maxLength: 80 })}
           />
-          <label htmlFor="">담당자명</label>
+          <label className="font-bold my-1" htmlFor="">
+            담당자명
+          </label>
           <input
             className={inputClass}
             type="text"
             placeholder="이정재"
             {...register("contactPerson", { required: true })}
           />
-          <label htmlFor="">내선번호</label>
+          <label className="font-bold my-1" htmlFor="">
+            내선번호
+          </label>
           <input
             className={inputClass}
             type="tel"
             placeholder="02-470-2080"
             {...register("extensionNumber", {})}
           />
-          <label htmlFor="">휴대폰 번호</label>
+          <label className="font-bold my-1" htmlFor="">
+            휴대폰 번호
+          </label>
           <input
             className={inputClass}
             type="tel"
             placeholder="010-1122-3344"
             {...register("number", { required: true, maxLength: 12 })}
           />
-          <label htmlFor="">담당자 이메일</label>
+          <label className="font-bold my-1" htmlFor="">
+            담당자 이메일
+          </label>
           <input
             className={inputClass}
             type="text"
             placeholder="nice@securenet.kr"
             {...register("Email", { required: true, pattern: /^\S+@\S+$/i })}
           />
-          <label htmlFor="">비고</label>
+          <label className="font-bold my-1" htmlFor="">
+            비고
+          </label>
           <input
             className={inputClass}
             type="text"
@@ -70,7 +84,12 @@ export default function UserForm() {
             {...register("note", { required: true })}
           />
         </div>
-
+        <div className="w-full flex ">
+          <div className="w-1/4">권한</div>
+          <div className="w-3/4  text-[#D9DAD9] mb-2 text-right">
+            파일업로드 / 성적서연결관리 / 발신
+          </div>
+        </div>
         <div className="flex justify-center">
           <button className="outline-none bg-[#D9DAD9] px-4 rounded mx-2">
             취 소
