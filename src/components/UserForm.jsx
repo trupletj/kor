@@ -11,7 +11,7 @@ export default function UserForm() {
   const onSubmit = (data) => console.log(data);
   console.log(errors);
 
-  const inputClass = "border border-[#D9DAD9] rounded-sm px-2 mb-2";
+  const inputClass = "border border-[#D9DAD9] rounded-sm px-2 mb-2 py-1";
 
   return (
     <div className="flex flex-col ">

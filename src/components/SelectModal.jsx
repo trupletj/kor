@@ -19,19 +19,19 @@ const SelectModal = () => {
   return (
     <div className="mt-2 relative w-full ">
       <div className="relative w-full">
-        <button
-          className="w-full text-left bg-[#D7D7D7] p-1"
-          onClick={handleShowModal}
-        >
+        <h1 className="w-full text-center bg-[#D7D7D7] p-1">
           {options[selectedNum]}
-        </button>
-        <button className="absolute right-0 top-0 bottom-0 flex items-center justify-center bg-[#D7D7D7] text-xs px-4">
+        </h1>
+        <button
+          onClick={handleShowModal}
+          className="absolute right-0 top-0 bottom-0 flex items-center justify-center bg-[#D7D7D7] text-xs px-4"
+        >
           선택 ▼
         </button>
       </div>
       {modalShow && (
         <>
-          <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full px-4 z-50">
+          <div className="fixed inset-0 bg-black bg-opacity-70 overflow-y-auto h-full w-full px-4 z-50">
             <div className="relative top-14 mx-auto text-center ">
               <div className=" w-full bg-[#D7D7D7] flex flex-col">
                 {options.map((option, i) => {
