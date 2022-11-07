@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
+import DocumentSend from "./container/DocumentSend";
 
 import Home from "./container/Home";
 import Integration from "./container/Integration";
@@ -18,6 +19,7 @@ const App = () => {
       <Route path="/product-details" element={<ProductDetails />} />
       <Route path="/outgoing" element={<OutgoingInformation />} />
       <Route path="/outgoing-details" element={<OutgoingDetails />} />
+      <Route path="/document-send" element={<DocumentSend />} />
       <Route path="/*" element={<Home />} />
     </Routes>
   );

@@ -54,12 +54,27 @@ const ProductDetails = () => {
         </div>
         <div>
           <div>
-            <div className="flex items-center mb-4">
+            <div className="flex items-center justify-between mb-4">
               <input
                 id="default-checkbox"
                 type="checkbox"
                 className="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-900 checked:appearance-none checked:bg-rose-600"
               />
+              <div className="">
+                <div className="flex w-full text-sm p-2">
+                  <div className="w-1/4 aspect-square overflow-hidden">
+                    <img
+                      src="https://picsum.photos/200/600 "
+                      className="object-cover h-28 w-28 "
+                    />
+                  </div>
+                  <div className="w-3/4 flex flex-col justify-center  pl-2">
+                    <p>영유아 원목 장난감</p>
+                    <p>{"(B064R1114-2001)"}</p>
+                  </div>
+                </div>
+              </div>
+              <button>{">"}</button>
             </div>
           </div>
         </div>
