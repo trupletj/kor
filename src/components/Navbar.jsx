@@ -15,13 +15,17 @@ const Navbar = (props) => {
   const handleMenuButton = () => {
     setMenuDropDownShow(!menuDropDownShow);
     setSettingsDropDownShow(false);
+    setSearchBarShow(false);
   };
   const handleSettingsButton = () => {
     setSettingsDropDownShow(!settingsDropDownShow);
     setMenuDropDownShow(false);
+    setSearchBarShow(false);
   };
   const handleSearchButton = () => {
     setSearchBarShow(!searchBarShow);
+    setMenuDropDownShow(false);
+    setSettingsDropDownShow(false);
   };
   return (
     <header className="absolute w-full left-0 top-0 z-20">
