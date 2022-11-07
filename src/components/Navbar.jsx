@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { MdMenu, MdSearch, MdSettings } from "react-icons/md";
 
 import Logo from "../assets/Logo";
 
 const Navbar = (props) => {
+  const navigate = useNavigate();
+
   const [menuDropDownShow, setMenuDropDownShow] = useState(false);
   const [settingsDropDownShow, setSettingsDropDownShow] = useState(false);
+  const [searchBarShow, setSearchBarShow] = useState(false);
 
   const handleMenuButton = () => {
     setMenuDropDownShow(!menuDropDownShow);
@@ -16,6 +19,9 @@ const Navbar = (props) => {
   const handleSettingsButton = () => {
     setSettingsDropDownShow(!settingsDropDownShow);
     setMenuDropDownShow(false);
+  };
+  const handleSearchButton = () => {
+    setSearchBarShow(!searchBarShow);
   };
   return (
     <header className="absolute w-full left-0 top-0 z-20">
@@ -30,13 +36,22 @@ const Navbar = (props) => {
             <MdMenu />
           </button>
         </div>
-
-        <div className="w-1/3 flex items-center justify-center text-base text-white">
-          {props.title ? props.title : <Logo />}
-        </div>
+        {searchBarShow ? (
+          <input
+            placeholder="검색어 입력...."
+            type="text"
+            className="bg-[#D9DAD9] w-full text-white text-sm p-2"
+          />
+        ) : (
+          <div className="w-1/3 flex items-center justify-center text-base text-white">
+            {props.title ? props.title : <Logo />}
+          </div>
+        )}
 
         <div className="flex flex-row w-1/3 justify-end items-center">
-          <MdSearch />
+          <button onClick={handleSearchButton}>
+            <MdSearch />
+          </button>
           <button className="ml-2" onClick={handleSettingsButton}>
             <MdSettings />
           </button>
