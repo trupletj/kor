@@ -21,7 +21,20 @@ const OutgoingInformation = () => {
                   발 신
                 </div>
                 <div className="w-2/12 flex items-center justify-center">
-                  {">"}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="14"
+                    height="26"
+                    viewBox="0 0 20.017 38.988"
+                  >
+                    <path
+                      id="Shape_2"
+                      data-name="Shape 2"
+                      d="M8395.99,1698.994l12.992-19.493-12.992-19.495h7.021l13,19.495-13,19.493Z"
+                      transform="translate(-8395.99 -1660.006)"
+                      fill="#8c8c8c"
+                    />
+                  </svg>
                 </div>
                 <div className="w-1/3 flex items-center justify-center">
                   수 신

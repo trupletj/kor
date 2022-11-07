@@ -2,10 +2,7 @@ import React from "react";
 import { BsChevronCompactLeft, BsChevronRight } from "react-icons/bs";
 
 import Container from "../components/Container";
-import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import SelectModal from "../components/SelectModal";
-import Sort from "../components/Sort";
 import Wrapper from "../components/Wrapper";
 const ProductDetails = () => {
   return (

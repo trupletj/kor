@@ -11,12 +11,8 @@ const OutgoingDetails = () => {
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
-        <div className="">
-          <h1 className="w-full text-center bg-[#D7D7D7] p-1">상세정보</h1>
-        </div>
-        <Sort />
         <div>
-          <section className="border-b-2 border-[#D9DAD9] mb-4 py-4 text-sm">
+          <section className="border-b-2 border-[#D9DAD9] mb-4 py-4 ">
             <ul>
               <li className="py-2">
                 <h1 className="font-bold">발신일</h1>
