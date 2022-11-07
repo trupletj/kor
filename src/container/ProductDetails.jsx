@@ -1,5 +1,6 @@
 import React from "react";
 import { BsChevronCompactLeft, BsChevronRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
@@ -70,9 +71,9 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            <button>
+            <Link to="/product-details-report">
               <BsChevronRight />
-            </button>
+            </Link>
           </div>
           <div className="flex items-center justify-between mb-2">
             <input
@@ -94,9 +95,9 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            <button>
+            <Link to="/product-details-report">
               <BsChevronRight />
-            </button>
+            </Link>
           </div>
           <div className="flex items-center justify-between mb-2">
             <input
@@ -118,9 +119,9 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            <button>
+            <Link to="/product-details-report">
               <BsChevronRight />
-            </button>
+            </Link>
           </div>
           <div className="flex items-center justify-between mb-2">
             <input
@@ -142,9 +143,9 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            <button>
+            <Link to="/product-details-report">
               <BsChevronRight />
-            </button>
+            </Link>
           </div>
         </div>
 
