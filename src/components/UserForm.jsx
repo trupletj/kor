@@ -11,7 +11,7 @@ export default function UserForm() {
   const onSubmit = (data) => console.log(data);
   console.log(errors);
 
-  const inputClass = "border border-[#D9DAD9] rounded-sm px-2 mb-2 py-1";
+  const inputClass = "border border-[#D9DAD9] rounded-sm px-2 mb-2 py-2";
 
   return (
     <div className="flex flex-col ">
@@ -84,7 +84,7 @@ export default function UserForm() {
             {...register("note", { required: true })}
           />
         </div>
-        <div className="w-full flex ">
+        <div className="w-full flex my-2">
           <div className="w-1/4 font-bold">권한</div>
           <div className="w-3/4  text-[#D9DAD9] mb-2 text-right">
             <Link to="/"> 파일업로드</Link> /{" "}
@@ -92,11 +92,11 @@ export default function UserForm() {
           </div>
         </div>
         <div className="flex justify-center">
-          <button className="outline-none bg-[#D9DAD9] px-4 rounded mx-2">
+          <button className="outline-none bg-[#D9DAD9] px-6 py-1 rounded mx-2">
             취 소
           </button>
           <button
-            className="outline-none bg-[#D9DAD9] px-4 rounded mx-2"
+            className="outline-none bg-[#D9DAD9] px-6 py-1 rounded mx-2"
             type="submit"
           >
             저 장
