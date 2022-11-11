@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.formHeader{
+   font-size: 23px;
+   font-weight: 800;
+}
+.list-header-format{
+   font-size: 25px;
+   font-weight: 800;
+}
+.list-text-format{
+font-size: 22px
+}

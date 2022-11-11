@@ -4,6 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { MdMenu, MdSearch, MdSettings } from "react-icons/md";
 
 import Logo from "../assets/Logo";
+import SearchButton from "../assets/SearchButton";
+import SettingsButton from "../assets/SettingsButton";
+import MenuButton from "../assets/MenuButton";
 
 const Navbar = (props) => {
   const navigate = useNavigate();
@@ -30,14 +33,14 @@ const Navbar = (props) => {
   return (
     <header className="absolute w-full left-0 top-0 z-20">
       <div
-        className=" h-12 bg-[#1B1C1E]     
+        className=" h-[72px] bg-[#1B1C1E]     
                flex justify-between items-center
               px-2 text-[#D9DAD9] text-2xl
 "
       >
         <div className="w-1/3 flex items-center">
           <button className="" type="button" onClick={handleMenuButton}>
-            <MdMenu />
+            <MenuButton />
           </button>
         </div>
         {searchBarShow ? (
@@ -54,31 +57,31 @@ const Navbar = (props) => {
 
         <div className="flex flex-row w-1/3 justify-end items-center">
           <button onClick={handleSearchButton}>
-            <MdSearch />
+            <SearchButton />
           </button>
           <button className="ml-2" onClick={handleSettingsButton}>
-            <MdSettings />
+            <SettingsButton />
           </button>
         </div>
       </div>
       {menuDropDownShow && (
-        <div className="absolute top-12 left-0 bg-[#1B1C1E] text-white text-2xl">
+        <div className="absolute top-[72px] left-0 bg-[#1B1C1E] text-white text-[28px] w-[200px] text-center">
           <ul>
             <li
               onClick={() => setMenuDropDownShow(false)}
-              className="py-3 px-6 border-b border-[#D9DAD9] last:border-none"
+              className="py-3 px-6 border-b-[2px] border-[#464646] last:border-none"
             >
               <Link to="/integrate">통합조회</Link>
             </li>
             <li
               onClick={() => setMenuDropDownShow(false)}
-              className="py-3 px-6 border-b border-[#D9DAD9] last:border-none"
+              className="py-3 px-6 border-b-[2px] border-[#464646] last:border-none"
             >
               <Link to="/products">제품조회</Link>
             </li>
             <li
               onClick={() => setMenuDropDownShow(false)}
-              className="py-3 px-6 border-b border-[#D9DAD9] last:border-none "
+              className="py-3 px-6 border-b-[2px] border-[#464646] last:border-none "
             >
               <Link to="/outgoing">발신정보</Link>
             </li>
@@ -86,12 +89,15 @@ const Navbar = (props) => {
         </div>
       )}
       {settingsDropDownShow && (
-        <div className="absolute top-12 right-0 bg-[#1B1C1E] text-white text-2xl ">
+        <div className="absolute top-[72px] right-0 bg-[#1B1C1E] text-white text-[28px] w-[200px] text-center ">
           <ul>
-            <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
+            <li className="py-3 px-6 border-b-[2px] border-[#464646] last:border-none">
               <Link to="/user">마이페이지</Link>
             </li>
-            <li className="py-3 px-6 border-b border-[#D9DAD9] last:border-none">
+            <li
+              className="py-3 px-6 border-b-[2px
+            ] border-[#464646] last:border-none"
+            >
               로그아웃
             </li>
           </ul>

@@ -5,7 +5,19 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        nanum: ['"Nanum Gothic"', ...defaultTheme.fontFamily.sans],
+        nanum: ['"NanumSquare"', "sans-serif"],
+      },
+      fontSize: {
+        base: ["28px"],
+        xl: ["40px"],
+        "2xl": ["70px"],
+      },
+      fontWeight: {
+        light: 300,
+        normal: 400,
+        medium: 500,
+        bold: 700,
+        "extra-bold": 800,
       },
     },
   },
