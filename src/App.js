@@ -10,12 +10,14 @@ import OutgoingInformation from "./container/OutgoingInformation";
 import ProductDetails from "./container/ProductDetails";
 import ProductDetailsReport from "./container/ProductDetailsReport";
 import ProductInquiry from "./container/ProductInquiry";
+import Search from "./container/Search";
 
 const App = () => {
   return (
     <Routes>
       <Route path="/user" element={<MyPage />} />
       <Route path="/integrate" element={<Integration />} />
+      <Route path="/search" element={<Search />} />
       <Route path="/products" element={<ProductInquiry />} />
       <Route path="/product-details" element={<ProductDetails />} />
       <Route

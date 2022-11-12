@@ -13,20 +13,19 @@ const Navbar = (props) => {
 
   const [menuDropDownShow, setMenuDropDownShow] = useState(false);
   const [settingsDropDownShow, setSettingsDropDownShow] = useState(false);
-  const [searchBarShow, setSearchBarShow] = useState(false);
+  const [searchBarShow, setSearchBarShow] = useState(props.search || false);
 
   const handleMenuButton = () => {
     setMenuDropDownShow(!menuDropDownShow);
     setSettingsDropDownShow(false);
-    setSearchBarShow(false);
   };
   const handleSettingsButton = () => {
     setSettingsDropDownShow(!settingsDropDownShow);
     setMenuDropDownShow(false);
-    setSearchBarShow(false);
   };
   const handleSearchButton = () => {
-    setSearchBarShow(!searchBarShow);
+    navigate("/search");
+    setSearchBarShow(true);
     setMenuDropDownShow(false);
     setSettingsDropDownShow(false);
   };
