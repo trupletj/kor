@@ -10,7 +10,7 @@ const ProductDetailsReport = () => {
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
-        <div className="w-full text-center bg-[#D7D7D7] p-1 my-2 relative text-[25px]">
+        <div className="w-full text-center bg-[#D7D7D7] p-1 my-2 relative text-[25px] border-y border-[#8e8e8e]">
           <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
             <BsChevronCompactLeft />
           </div>

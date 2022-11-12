@@ -17,14 +17,14 @@ const SelectModal = () => {
     setModalShow(!modalShow);
   };
   return (
-    <div className="mt-2 relative w-full ">
+    <div className="mt-2 relative w-full text-[25px]">
       <div className="relative w-full">
         <h1 className="w-full text-center bg-[#D7D7D7] p-1">
           {options[selectedNum]}
         </h1>
         <button
           onClick={handleShowModal}
-          className="absolute right-0 top-0 bottom-0 flex items-center justify-center bg-[#D7D7D7] text-xs px-4"
+          className="absolute right-0 top-0 bottom-0 flex items-center justify-center bg-[#D7D7D7] text-[20px] px-4"
         >
           선택 ▼
         </button>
@@ -48,7 +48,7 @@ const SelectModal = () => {
               </div>
               <h1
                 onClick={() => setModalShow(false)}
-                className="text-right text-white mt-1 "
+                className="text-right text-[20px] text-white mt-1 "
               >
                 닫기 ▲
               </h1>
