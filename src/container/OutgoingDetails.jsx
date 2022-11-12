@@ -40,12 +40,12 @@ const OutgoingDetails = () => {
               </li>
             </ul>
           </section>
-          <div className="text-sm flex flex-col items-start mb-4 ">
+          <div className="flex flex-col items-start mb-4 w-full">
             <div className="bg-[#D9DAD9] py-1 px-2 rounded-t shadow text-[18px]">
               안전확인 신고서
             </div>
-            <div className="p-2 shadow-md text-[22px]">
-              <div className="flex w-full mb-2">
+            <div className="p-2 shadow-md text-[22px] w-full">
+              <div className="flex w-full ">
                 <div className="w-1/4 aspect-square overflow-hidden">
                   <img
                     src="https://picsum.photos/200/600 "
@@ -56,17 +56,17 @@ const OutgoingDetails = () => {
                   <p>피카피카 원목 완구</p>
 
                   <p>제조업체명 : Ningbo</p>
-                  <p>문서구분 : 인증서 (CB064R1114-2001)</p>
+                  <p>문서구분 : CB064R1114-2001</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="text-sm flex flex-col items-start text-[22px]">
+          <div className="flex flex-col items-start text-[22px] w-full">
             <div className="bg-[#C2CFFE] py-1 px-2 rounded-t shadow text-[18px]">
               안전확인 신고서
             </div>
-            <div className="p-2 shadow-md ">
-              <div className="flex w-full  mb-2">
+            <div className="p-2 shadow-md w-full">
+              <div className="flex w-full  ">
                 <div className="w-1/4 aspect-square overflow-hidden">
                   <img
                     src="https://picsum.photos/200/600 "
@@ -77,7 +77,7 @@ const OutgoingDetails = () => {
                   <p>피카피카 원목 완구</p>
 
                   <p>제조업체명 : Ningbo</p>
-                  <p>문서구분 : 인증서 (CB064R1114-2001)</p>
+                  <p>문서구분 : H111-22-00123</p>
                 </div>
               </div>
             </div>
