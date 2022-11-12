@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 import Container from "../components/Container";
 import Footer from "../components/Footer";
@@ -8,13 +9,21 @@ import Sort from "../components/Sort";
 import Wrapper from "../components/Wrapper";
 
 const OutgoingInformation = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/outgoing-details");
+  };
   return (
     <Wrapper>
       <Navbar title="발신정보" />
       <Container>
         <div className="text-[20px]">
           <ul>
-            <li className="shadow-md rounded-lg my-3 relative">
+            <li
+              className="shadow-md rounded-lg my-3 relative"
+              onClick={handleClick}
+            >
               <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
@@ -85,7 +94,10 @@ const OutgoingInformation = () => {
                 </ul>
               </div>
             </li>
-            <li className="shadow-md rounded-lg my-3 relative">
+            <li
+              className="shadow-md rounded-lg my-3 relative"
+              onClick={handleClick}
+            >
               <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
@@ -156,7 +168,10 @@ const OutgoingInformation = () => {
                 </ul>
               </div>
             </li>
-            <li className="shadow-md rounded-lg my-3 relative">
+            <li
+              className="shadow-md rounded-lg my-3 relative"
+              onClick={handleClick}
+            >
               <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
@@ -227,7 +242,10 @@ const OutgoingInformation = () => {
                 </ul>
               </div>
             </li>
-            <li className="shadow-md rounded-lg my-3 relative">
+            <li
+              className="shadow-md rounded-lg my-3 relative"
+              onClick={handleClick}
+            >
               <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
