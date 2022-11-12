@@ -14,7 +14,7 @@ const OutgoingDetails = () => {
         <div>
           <section className="border-b-2 border-[#D9DAD9] mb-4 py-4 ">
             <ul>
-              <li className="py-2">
+              <li className="py-2]">
                 <h1 className="font-bold">발신일</h1>
                 <h1>2022.05.21 13:07</h1>
               </li>

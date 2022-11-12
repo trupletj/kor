@@ -32,7 +32,7 @@ const SelectModal = () => {
       {modalShow && (
         <>
           <div className="fixed inset-0 bg-black bg-opacity-70 overflow-y-auto h-full w-full px-4 z-50">
-            <div className="relative top-14 mx-auto text-center ">
+            <div className="relative w-[576px] top-[92px] mx-auto px-[30px] text-center ">
               <div className=" w-full bg-[#D7D7D7] flex flex-col">
                 {options.map((option, i) => {
                   return (

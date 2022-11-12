@@ -13,18 +13,20 @@ const Integration = () => {
       <Container>
         <Sort />
 
-        <section className="border-b-2 mb-4 last:mb-0">
+        <section className="border-b-2 mb-[20px] last:mb-0">
           <ul>
-            <li>
-              <div className="flex w-full mb-4">
-                <div className="w-[140px] overflow-hidden">
+            <li className="mb-[20px]">
+              <div className="flex w-full ">
+                <div className="w-[140px] overflow-hidden mr-[20px]">
                   <img
                     src="https://picsum.photos/140/130?random=1"
-                    className="object-cover  "
+                    className="object-contain w-[140px] "
                   />
                 </div>
-                <div className="flex flex-col justify-between  pl-2">
-                  <p className="list-header-format">영유아 원목 장난감</p>
+                <div className="flex flex-col justify-between flex-grow">
+                  <p className="list-header-format mb-[2px]">
+                    영유아 원목 장난감
+                  </p>
                   <span>
                     <p className="list-text-format">
                       {"어린이제품 안전특별법 > 안전확인"}
@@ -33,54 +35,62 @@ const Integration = () => {
                   <p className="list-text-format">제조업체명 : Ningbo</p>
                   <p className="list-text-format">
                     문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
+                    <span className="text-[#0c00f9] list-text-format">
                       인증서 (CB064R1114-2001)
                     </span>
                   </p>
                 </div>
               </div>
             </li>
-            <li>
-              <div className="flex w-full text-sm mb-4">
-                <div className="w-[140px] overflow-hidden">
+            <li className="mb-[20px]">
+              <div className="flex w-full ">
+                <div className="w-[140px] overflow-hidden mr-[20px]">
                   <img
-                    src="https://picsum.photos/140/140?random=2"
-                    className="object-cover"
+                    src="https://picsum.photos/140/130?random=2"
+                    className="object-contain w-[140px] "
                   />
                 </div>
-                <div className="flex flex-col justify-between  pl-2">
-                  <p className="font-bold">영유아 원목 장난감</p>
+                <div className="flex flex-col justify-between flex-grow">
+                  <p className="list-header-format mb-[2px]">
+                    영유아 원목 장난감
+                  </p>
                   <span>
-                    <p>{"어린이제품 안전특별법 > 안전확인"}</p>
+                    <p className="list-text-format">
+                      {"어린이제품 안전특별법 > 안전확인"}
+                    </p>
                   </span>
-                  <p>제조업체명 : Ningbo</p>
-                  <p className="">
+                  <p className="list-text-format">제조업체명 : Ningbo</p>
+                  <p className="list-text-format">
                     문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
-                      인증서 (CB064R1114-2001)
+                    <span className="text-[#008aff] list-text-format">
+                      검사성적서
                     </span>
                   </p>
                 </div>
               </div>
             </li>
-            <li>
-              <div className="flex w-full text-sm mb-4">
-                <div className="w-[140px] overflow-hidden">
+            <li className="mb-[20px]">
+              <div className="flex w-full ">
+                <div className="w-[140px] overflow-hidden mr-[20px]">
                   <img
                     src="https://picsum.photos/140/130?random=3"
-                    className="object-cover"
+                    className="object-contain w-[140px] "
                   />
                 </div>
-                <div className=" flex flex-col justify-between  pl-2">
-                  <p className="font-bold">영유아 원목 장난감</p>
+                <div className="flex flex-col justify-between flex-grow">
+                  <p className="list-header-format mb-[2px]">
+                    영유아 원목 장난감
+                  </p>
                   <span>
-                    <p>{"어린이제품 안전특별법 > 안전확인"}</p>
+                    <p className="list-text-format">
+                      {"어린이제품 안전특별법 > 안전확인"}
+                    </p>
                   </span>
-                  <p>제조업체명 : Ningbo</p>
-                  <p className="">
+                  <p className="list-text-format">제조업체명 : Ningbo</p>
+                  <p className="list-text-format">
                     문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
-                      인증서 (CB064R1114-2001)
+                    <span className="text-[#008AFF] list-text-format">
+                      검사성적서
                     </span>
                   </p>
                 </div>
@@ -90,24 +100,28 @@ const Integration = () => {
         </section>
         <section className="border-b-2 mb-4 last:mb-0">
           <ul>
-            <li>
-              <div className="flex w-full text-sm mb-4">
-                <div className="w-[140px] aspect-square overflow-hidden">
+            <li className="mb-[20px]">
+              <div className="flex w-full ">
+                <div className="w-[140px] overflow-hidden mr-[20px]">
                   <img
-                    src="https://picsum.photos/140/120?random=4"
-                    className="object-cover "
+                    src="https://picsum.photos/140/130?random=4"
+                    className="object-contain w-[140px] "
                   />
                 </div>
-                <div className=" flex flex-col justify-between  pl-2">
-                  <p className="font-bold">영유아 원목 장난감</p>
+                <div className="flex flex-col justify-between flex-grow">
+                  <p className="list-header-format mb-[2px]">
+                    영유아 원목 장난감
+                  </p>
                   <span>
-                    <p>{"어린이제품 안전특별법 > 안전확인"}</p>
+                    <p className="list-text-format">
+                      {"어린이제품 안전특별법 > 안전확인"}
+                    </p>
                   </span>
-                  <p>제조업체명 : Ningbo</p>
-                  <p className="">
+                  <p className="list-text-format">제조업체명 : Ningbo</p>
+                  <p className="list-text-format">
                     문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
-                      인증서 (CB064R1114-2001)
+                    <span className="text-[#008AFF] list-text-format">
+                      검사성적서
                     </span>
                   </p>
                 </div>
@@ -117,93 +131,55 @@ const Integration = () => {
         </section>
         <section className="border-b-2 mb-4 last:mb-0">
           <ul>
-            <li>
-              <div className="flex w-full text-sm mb-4">
-                <div className="w-[140px] aspect-square overflow-hidden">
+            <li className="mb-[20px]">
+              <div className="flex w-full ">
+                <div className="w-[140px] overflow-hidden mr-[20px]">
                   <img
-                    src="https://picsum.photos/200/300?random=5"
-                    className="object-cover "
+                    src="https://picsum.photos/140/130?random=5"
+                    className="object-contain w-[140px] "
                   />
                 </div>
-                <div className="flex flex-col justify-between  pl-2">
-                  <p className="font-bold">영유아 원목 장난감</p>
+                <div className="flex flex-col justify-between flex-grow">
+                  <p className="list-header-format mb-[2px]">
+                    영유아 원목 장난감
+                  </p>
                   <span>
-                    <p>{"어린이제품 안전특별법 > 안전확인"}</p>
+                    <p className="list-text-format">
+                      {"어린이제품 안전특별법 > 안전확인"}
+                    </p>
                   </span>
-                  <p>제조업체명 : Ningbo</p>
-                  <p className="">
+                  <p className="list-text-format">제조업체명 : Ningbo</p>
+                  <p className="list-text-format">
                     문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
-                      인증서 (CB064R1114-2001)
+                    <span className="text-[#008AFF] list-text-format">
+                      검사성적서
                     </span>
                   </p>
                 </div>
               </div>
             </li>
-            <li>
-              <div className="flex w-full text-sm mb-4">
-                <div className="w-[140px] aspect-square overflow-hidden">
+            <li className="mb-[20px]">
+              <div className="flex w-full ">
+                <div className="w-[140px] overflow-hidden mr-[20px]">
                   <img
-                    src="https://picsum.photos/200/300?random=5"
-                    className="object-cover "
+                    src="https://picsum.photos/140/130?random=6"
+                    className="object-contain w-[140px] "
                   />
                 </div>
-                <div className="flex flex-col justify-between  pl-2">
-                  <p className="font-bold">영유아 원목 장난감</p>
-                  <span>
-                    <p>{"어린이제품 안전특별법 > 안전확인"}</p>
-                  </span>
-                  <p>제조업체명 : Ningbo</p>
-                  <p className="">
-                    문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
-                      인증서 (CB064R1114-2001)
-                    </span>
+                <div className="flex flex-col justify-between flex-grow">
+                  <p className="list-header-format mb-[2px]">
+                    영유아 원목 장난감
                   </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="flex w-full text-sm mb-4">
-                <div className="w-[140px] aspect-square overflow-hidden">
-                  <img
-                    src="https://picsum.photos/140/100?random=5"
-                    className="object-cover "
-                  />
-                </div>
-                <div className="flex flex-col justify-between  pl-2">
-                  <p className="font-bold">영유아 원목 장난감</p>
                   <span>
-                    <p>{"어린이제품 안전특별법 > 안전확인"}</p>
+                    <p className="list-text-format">
+                      {"어린이제품 안전특별법 > 안전확인"}
+                    </p>
                   </span>
-                  <p>제조업체명 : Ningbo</p>
-                  <p className="">
+                  <p className="list-text-format">제조업체명 : Ningbo</p>
+                  <p className="list-text-format">
                     문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
-                      인증서 (CB064R1114-2001)
-                    </span>
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="flex w-full text-sm mb-4">
-                <div className="w-24 h-24 aspect-square overflow-hidden">
-                  <img
-                    src="https://picsum.photos/200/300?random=5"
-                    className="object-cover h-24 w-24 "
-                  />
-                </div>
-                <div className="flex flex-col justify-between  pl-2">
-                  <p className="font-bold">영유아 원목 장난감</p>
-                  <span>
-                    <p>{"어린이제품 안전특별법 > 안전확인"}</p>
-                  </span>
-                  <p>제조업체명 : Ningbo</p>
-                  <p className="">
-                    문서구분 :{" "}
-                    <span className=" text-[#008AFF]">
-                      인증서 (CB064R1114-2001)
+                    <span className="text-[#008AFF] list-text-format">
+                      검사성적서
                     </span>
                   </p>
                 </div>

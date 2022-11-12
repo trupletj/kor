@@ -10,14 +10,14 @@ const ProductDetails = () => {
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
-        <div className="w-full text-center bg-[#D7D7D7] p-1 my-2 relative">
+        <div className="w-full text-center bg-[#D7D7D7] p-1 my-2 relative text-[25px]">
           <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
             <BsChevronCompactLeft />
           </div>
           <h1 className="">상세정보</h1>
         </div>
-        <div className="mb-4 border-b-2 pb-2">
-          <table className="table-auto text-sm w-full">
+        <div className="mb-4 border-b-2 text-[23px]">
+          <table className="table-auto w-full">
             <tbody>
               <tr>
                 <td className="font-bold">어린이제품명</td>
@@ -50,19 +50,19 @@ const ProductDetails = () => {
             </tbody>
           </table>
         </div>
-        <div className="my-6">
+        <div className="my-6 text-[23px]">
           <div className="flex items-center justify-between mb-2">
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-4 h-4 mx-2   rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[20px] h-[20px] mx-2   rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
-              <div className="flex w-full text-sm">
+              <div className="flex w-full ">
                 <div className="w-1/5 aspect-square overflow-hidden">
                   <img
                     src="https://picsum.photos/200/600 "
-                    className="object-cover h-28 w-28 "
+                    className="object-cover h-[85px] w-[85px] "
                   />
                 </div>
                 <div className="w-4/5 flex flex-col justify-center  pl-2">
@@ -79,14 +79,14 @@ const ProductDetails = () => {
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[20px] h-[20px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
-              <div className="flex w-full text-sm">
+              <div className="flex w-full ">
                 <div className="w-1/5 aspect-square overflow-hidden">
                   <img
                     src="https://picsum.photos/200/600 "
-                    className="object-cover h-28 w-28 "
+                    className="object-cover h-[85px] w-[85px] "
                   />
                 </div>
                 <div className="w-4/5 flex flex-col justify-center  pl-2">
@@ -103,14 +103,14 @@ const ProductDetails = () => {
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[20px] h-[20px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
-              <div className="flex w-full text-sm">
+              <div className="flex w-full ">
                 <div className="w-1/5 aspect-square overflow-hidden">
                   <img
                     src="https://picsum.photos/200/600 "
-                    className="object-cover h-28 w-28 "
+                    className="object-cover h-[85px] w-[85px] "
                   />
                 </div>
                 <div className="w-4/5 flex flex-col justify-center  pl-2">
@@ -127,14 +127,14 @@ const ProductDetails = () => {
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-4 h-4 mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[20px] h-[20px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
-              <div className="flex w-full text-sm">
+              <div className="flex w-full ">
                 <div className="w-1/5 aspect-square overflow-hidden">
                   <img
                     src="https://picsum.photos/200/600 "
-                    className="object-cover h-28 w-28 "
+                    className="object-cover h-[85px] w-[85px] "
                   />
                 </div>
                 <div className="w-4/5 flex flex-col justify-center  pl-2">
@@ -152,7 +152,7 @@ const ProductDetails = () => {
         <div className="w-full flex items-center justify-center my-2">
           <Link
             to="/document-send"
-            className="bg-[#2E3192] text-white px-10 py-1 rounded"
+            className="bg-[#2E3192] text-white w-[235px] h-[45px] flex items-center justify-center text-[25px] rounded border-emboss"
           >
             문 서 발 송
           </Link>

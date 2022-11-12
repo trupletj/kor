@@ -5,6 +5,8 @@
 .formHeader{
    font-size: 23px;
    font-weight: 800;
+   margin-top: 20px;
+   margin-bottom: 5px
 }
 .list-header-format{
    font-size: 25px;
@@ -12,4 +14,8 @@
 }
 .list-text-format{
 font-size: 22px
+}
+
+.border-emboss {
+   box-shadow: inset 0.2em 0.2em 0.2em 0 rgba(255,255,255,0.5), inset -0.2em -0.2em 0.2em 0 rgba(0,0,0,0.5);
 }
