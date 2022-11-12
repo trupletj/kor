@@ -22,8 +22,8 @@ const DocumentSend = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <Container>
           <div className="w-full">
-            <ul className="w-full border-b border-[#D9DAD9]">
-              <li className="flex my-2">
+            <ul className="w-full border-b border-[#D9DAD9] text-[25px]">
+              <li className="flex my-4">
                 <label className="w-1/4 font-bold">E-mail</label>
                 <input
                   className="border-b border-[#D9DAD9] mx-2 w-3/4"
@@ -34,7 +34,7 @@ const DocumentSend = () => {
                   })}
                 />
               </li>
-              <li className="flex  my-2">
+              <li className="flex  my-4">
                 <label className="w-1/4 font-bold">수신회사</label>
                 <input
                   className="border-b border-[#D9DAD9] mx-2 w-3/4"
@@ -42,7 +42,7 @@ const DocumentSend = () => {
                   {...register("Receiving company", { required: true })}
                 />
               </li>
-              <li className="flex  my-2">
+              <li className="flex  my-4">
                 <label className="w-1/4 font-bold">수신자명</label>
                 <input
                   className="border-b border-[#D9DAD9] mx-2 w-3/4"
@@ -50,7 +50,7 @@ const DocumentSend = () => {
                   {...register("Receiving company", { required: true })}
                 />
               </li>
-              <li className="flex my-2">
+              <li className="flex my-4">
                 <label className="w-1/4 font-bold">제 목</label>
 
                 <input
@@ -60,22 +60,22 @@ const DocumentSend = () => {
                   {...register("Recipient name", { required: true })}
                 />
               </li>
-              <li className="flex my-2 items-center">
+              <li className="flex my-4 items-center">
                 <label className="w-1/4 font-bold">내 용</label>
 
                 <textarea
-                  className="border border-[#D9DAD9] mx-2 w-3/4"
+                  className="border border-[#D9DAD9] mx-2 w-3/4 h-[150px]"
                   {...register("content", {})}
                 />
               </li>
             </ul>
           </div>
-          <div className="w-full">
-            <ul>
-              <li className="w-full relative my-2">
+          <div className="w-full ">
+            <ul className="text-[22px]">
+              <li className="w-full relative my-4">
                 <div className="flex items-stretch justify-between rounded shadow-md">
                   <div
-                    className="text-[10px] p-1 bg-[#D9DAD9] rounded-l"
+                    className="text-[17px] p-1 bg-[#D9DAD9] rounded-l"
                     style={{ writingMode: "vertical-rl" }}
                   >
                     안 전 확 인 신 고 서
@@ -84,26 +84,25 @@ const DocumentSend = () => {
                     className="w-full
                   "
                   >
-                    <div className="flex w-full text-xs p-2">
-                      <div className="overflow-hidden">
-                        <img
-                          src="https://picsum.photos/200/600 "
-                          className="object-cover h-20 w-20 "
-                        />
-                      </div>
+                    <div className="flex h-full w-full px-2 text-[22px] items-center">
+                      <img
+                        src="https://picsum.photos/200/600 "
+                        className="object-cover h-[120px] w-[130px]"
+                      />
+
                       <div className=" flex flex-col justify-between pl-2">
                         <p>영유아 원목 장난감</p>
                         <p>제조업체명 : Ningbo</p>
-                        <p>문서구분 : 인증서 (CB064R1114-2001)</p>
+                        <p>문서구분 : B064R1114-2001</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li className="w-full relative my-2">
+              <li className="w-full relative my-4">
                 <div className="flex items-stretch justify-between rounded shadow-md">
                   <div
-                    className="text-[10px] p-1 bg-[#C2CFFE] rounded-l"
+                    className="text-[17px] p-1 bg-[#C2CFFE] rounded-l"
                     style={{ writingMode: "vertical-rl" }}
                   >
                     안 전 확 인 신 고 서
@@ -112,29 +111,25 @@ const DocumentSend = () => {
                     className="w-full
                   "
                   >
-                    <div className="flex w-full text-xs p-2">
-                      <div className=" aspect-square overflow-hidden">
-                        <img
-                          src="https://picsum.photos/200/600 "
-                          className="object-cover h-20 w-20 "
-                        />
-                      </div>
-                      <div className=" flex flex-col justify-between  pl-2">
+                    <div className="flex h-full w-full px-2 text-[22px] items-center">
+                      <img
+                        src="https://picsum.photos/200/600 "
+                        className="object-cover h-[120px] w-[130px]"
+                      />
+
+                      <div className=" flex flex-col justify-between pl-2">
                         <p>영유아 원목 장난감</p>
-                        <span>
-                          <p>{"어린이제품 안전특별법 > 안전확인"}</p>
-                        </span>
                         <p>제조업체명 : Ningbo</p>
-                        <p>문서구분 : 인증서 (CB064R1114-2001)</p>
+                        <p>문서구분 : B064R1114-2001</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li className="w-full relative my-2">
+              <li className="w-full relative my-4">
                 <div className="flex items-stretch justify-between rounded shadow-md">
                   <div
-                    className="text-[10px] p-1 bg-[#C2CFFE] rounded-l"
+                    className="text-[17px] p-1 bg-[#C2CFFE] rounded-l"
                     style={{ writingMode: "vertical-rl" }}
                   >
                     안 전 확 인 신 고 서
@@ -143,20 +138,16 @@ const DocumentSend = () => {
                     className="w-full
                   "
                   >
-                    <div className="flex w-full text-xs p-2">
-                      <div className=" aspect-square overflow-hidden">
-                        <img
-                          src="https://picsum.photos/200/600 "
-                          className="object-cover h-20 w-20 "
-                        />
-                      </div>
-                      <div className=" flex flex-col justify-between  pl-2">
+                    <div className="flex h-full w-full px-2 text-[22px] items-center">
+                      <img
+                        src="https://picsum.photos/120/130?random=3 "
+                        className="object-cover h-[120px] w-[130px]"
+                      />
+
+                      <div className=" flex flex-col justify-between pl-2">
                         <p>영유아 원목 장난감</p>
-                        <span>
-                          <p>{"어린이제품 안전특별법 > 안전확인"}</p>
-                        </span>
                         <p>제조업체명 : Ningbo</p>
-                        <p>문서구분 : 인증서 (CB064R1114-2001)</p>
+                        <p>문서구분 : B064R1114-2001</p>
                       </div>
                     </div>
                   </div>
@@ -166,19 +157,19 @@ const DocumentSend = () => {
           </div>
         </Container>
         <div
-          className="w-full h-12 
+          className="w-full h-[72px]
               absolute left-0 bottom-0
               flex justify-center items-center
               z-30 shadow
              
 "
         >
-          <button className="bg-[#D9DAD9] px-4  text-white rounded mx-2">
+          <button className="bg-[#B7B7B7] w-[155px] h-[45px] text-[25px] font-bold border-emboss text-white rounded mx-2">
             취 소
           </button>
           <button
             type="submit"
-            className="bg-[#2E3192] px-4  text-white rounded mx-2"
+            className="bg-[#2E3192]  w-[155px] h-[45px] text-[25px] font-bold border-emboss text-white rounded mx-2"
           >
             발 송
           </button>

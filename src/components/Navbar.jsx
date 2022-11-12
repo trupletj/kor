@@ -47,7 +47,7 @@ const Navbar = (props) => {
           <input
             placeholder="검색어 입력...."
             type="text"
-            className="bg-[#D9DAD9] w-full text-white text-sm p-2"
+            className="bg-[#464646] w-full text-white text-sm p-2 outline-none"
           />
         ) : (
           <div className="w-1/3 flex items-center justify-center text-base text-white">
