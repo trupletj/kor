@@ -13,14 +13,14 @@ const Search = () => {
       <Container>
         <Sort />
 
-        <section className="border-b-2 mb-[20px] last:mb-0">
+        <section className="border-b mb-[12px] last:mb-0">
           <ul>
-            <li className="mb-[20px]">
+            <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[140px] overflow-hidden mr-[20px]">
+                <div className="w-[84px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=1"
-                    className="object-contain w-[140px] "
+                    className="object-contain w-[84px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -42,12 +42,12 @@ const Search = () => {
                 </div>
               </div>
             </li>
-            <li className="mb-[20px]">
+            <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[140px] overflow-hidden mr-[20px]">
+                <div className="w-[84px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=2"
-                    className="object-contain w-[140px] "
+                    className="object-contain w-[84px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -69,12 +69,12 @@ const Search = () => {
                 </div>
               </div>
             </li>
-            <li className="mb-[20px]">
+            <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[140px] overflow-hidden mr-[20px]">
+                <div className="w-[84px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=3"
-                    className="object-contain w-[140px] "
+                    className="object-contain w-[84px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -100,12 +100,12 @@ const Search = () => {
         </section>
         <section className="border-b-2 mb-4 last:mb-0">
           <ul>
-            <li className="mb-[20px]">
+            <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[140px] overflow-hidden mr-[20px]">
+                <div className="w-[84px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=4"
-                    className="object-contain w-[140px] "
+                    className="object-contain w-[84px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -131,12 +131,12 @@ const Search = () => {
         </section>
         <section className="border-b-2 mb-4 last:mb-0">
           <ul>
-            <li className="mb-[20px]">
+            <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[140px] overflow-hidden mr-[20px]">
+                <div className="w-[84px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=5"
-                    className="object-contain w-[140px] "
+                    className="object-contain w-[84px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -158,12 +158,12 @@ const Search = () => {
                 </div>
               </div>
             </li>
-            <li className="mb-[20px]">
+            <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[140px] overflow-hidden mr-[20px]">
+                <div className="w-[84px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=6"
-                    className="object-contain w-[140px] "
+                    className="object-contain w-[84px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">

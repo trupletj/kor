@@ -32,39 +32,43 @@ const Navbar = (props) => {
   return (
     <header className="absolute w-full left-0 top-0 z-20">
       <div
-        className=" h-[72px] bg-[#1B1C1E]     
+        className=" h-[50px] bg-[#1B1C1E]     
                flex justify-between items-center
-              px-2 text-[#D9DAD9] text-2xl
+              px-2 text-[#D9DAD9] text-2xl py-2
 "
       >
         <div className="w-1/3 flex items-center">
-          <button className="" type="button" onClick={handleMenuButton}>
-            <MenuButton />
-          </button>
+          <MenuButton onClick={handleMenuButton} />
         </div>
         {searchBarShow ? (
           <input
             placeholder="검색어 입력...."
             type="text"
-            className="bg-[#464646] w-full text-white text-sm p-2 outline-none"
+            className="bg-[#464646] w-full text-white p-1 outline-none text-base"
           />
         ) : (
           <div className="w-1/3 flex items-center justify-center text-base text-white">
-            {props.title ? props.title : <Logo />}
+            {props.title ? (
+              props.title
+            ) : (
+              <button onClick={handleSearchButton}>
+                <Logo />
+              </button>
+            )}
           </div>
         )}
 
-        <div className="flex flex-row w-1/3 justify-end items-center">
+        <div className="flex flex-row w-1/3 justify-end items-center text-base">
           <button onClick={handleSearchButton}>
             <SearchButton />
           </button>
-          <button className="ml-2" onClick={handleSettingsButton}>
-            <SettingsButton />
+          <button className="ml-2 text-[28px]" onClick={handleSettingsButton}>
+            <MdSettings />
           </button>
         </div>
       </div>
       {menuDropDownShow && (
-        <div className="absolute top-[72px] left-0 bg-[#1B1C1E] text-white text-[28px] w-[200px] text-center">
+        <div className="absolute top-[50px] left-0 bg-[#1B1C1E] text-white text-base w-[120px] text-center">
           <ul>
             <li
               onClick={() => setMenuDropDownShow(false)}
@@ -88,9 +92,9 @@ const Navbar = (props) => {
         </div>
       )}
       {settingsDropDownShow && (
-        <div className="absolute top-[72px] right-0 bg-[#1B1C1E] text-white text-[28px] w-[200px] text-center ">
+        <div className="absolute top-[50px] right-0 bg-[#1B1C1E] text-white text-base w-[120px] text-center ">
           <ul>
-            <li className="py-3 px-6 border-b-[2px] border-[#464646] last:border-none">
+            <li className="py-3 text-center border-b-[2px] border-[#464646] last:border-none">
               <Link to="/user">마이페이지</Link>
             </li>
             <li

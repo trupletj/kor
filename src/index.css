@@ -3,17 +3,18 @@
 @tailwind utilities;
 
 .formHeader{
-   font-size: 23px;
+   font-size: 13px;
    font-weight: 800;
-   margin-top: 20px;
-   margin-bottom: 5px
+   margin-top: 15px;
+   margin-bottom: 3px
+  
 }
 .list-header-format{
-   font-size: 25px;
+   font-size: 15px;
    font-weight: 800;
 }
 .list-text-format{
-font-size: 22px
+font-size: 13px
 }
 
 .border-emboss {

@@ -10,13 +10,13 @@ const ProductDetails = () => {
     <Wrapper>
       <Navbar title="통합조회" />
       <Container>
-        <div className="w-full text-center bg-[#D7D7D7] p-1 my-2 relative text-[25px] border-y border-[#8e8e8e]">
+        <div className="w-full text-center bg-[#D7D7D7] p-1 my-2 relative text-[15px] border-y border-[#8e8e8e]">
           <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
             <BsChevronCompactLeft />
           </div>
           <h1 className="">상세정보</h1>
         </div>
-        <div className="mb-4 border-b-2 text-[23px]">
+        <div className="mb-4 border-b-2 text-[14px]">
           <table className="table-auto w-full">
             <tbody>
               <tr>
@@ -50,12 +50,12 @@ const ProductDetails = () => {
             </tbody>
           </table>
         </div>
-        <div className="my-6 text-[23px]">
+        <div className="my-6 text-[14px]">
           <div className="flex items-center justify-between mb-2">
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-[20px] h-[20px] mx-2   rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[12px] h-[12px] mx-2   rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
               <div className="flex w-full ">
@@ -79,7 +79,7 @@ const ProductDetails = () => {
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-[20px] h-[20px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[12px] h-[12px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
               <div className="flex w-full ">
@@ -103,7 +103,7 @@ const ProductDetails = () => {
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-[20px] h-[20px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[12px] h-[12px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
               <div className="flex w-full ">
@@ -127,7 +127,7 @@ const ProductDetails = () => {
             <input
               id="default-checkbox"
               type="checkbox"
-              className="w-[20px] h-[20px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
+              className="w-[12px] h-[12px] mx-2 text-blue-600 bg-gray-100 rounded border-gray-600 checked:appearance-none checked:bg-gray-400"
             />
             <div className="w-full">
               <div className="flex w-full ">
@@ -152,7 +152,7 @@ const ProductDetails = () => {
         <div className="w-full flex items-center justify-center my-2">
           <Link
             to="/document-send"
-            className="bg-[#2E3192] text-white w-[235px] h-[45px] flex items-center justify-center text-[25px] rounded border-emboss"
+            className="bg-[#2E3192] text-white w-[140px] h-[27px] flex items-center justify-center text-[15px] rounded border-emboss"
           >
             문 서 발 송
           </Link>

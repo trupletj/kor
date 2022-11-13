@@ -11,11 +11,11 @@ const ProductListItem = () => {
   return (
     <div className="w-full my-4">
       <div className="relative">
-        <div className="flex w-full mb-[20px]">
-          <div className="w-[140px] overflow-hidden mr-[20px]">
+        <div className="flex w-full mb-[12px]">
+          <div className="w-[84px] overflow-hidden mr-[12px]">
             <img
               src="https://picsum.photos/140/130?random=4"
-              className="object-contain w-[140px] "
+              className="object-contain w-[84px] "
             />
           </div>
           <div className=" flex flex-col justify-between mb-3 list-text-format">
@@ -31,7 +31,7 @@ const ProductListItem = () => {
         </div>
         <div
           onClick={() => setShow(!show)}
-          className="absolute bottom-2 right-0 text-[18px]"
+          className="absolute bottom-2 right-0 text-[10px]"
         >
           <span className="bg-[#555555] text-white p-1 rounded">
             모델추가 1 {show ? "▲" : "▼"}
@@ -40,32 +40,34 @@ const ProductListItem = () => {
       </div>
       {show && (
         <Swiper
-          className="mb-2"
+          className="mb-1"
           slidesPerView={4}
           spaceBetween={10}
           modules={[Navigation]}
         >
           <SwiperSlide>
-            <img
-              className="w-[120px] h-[120px] object-cover"
-              src="https://picsum.photos/200/300?random=1"
-            />
+            <div className="w">
+              <img
+                className="w-[72px] h-[72px] object-cover"
+                src="https://picsum.photos/200/300?random=1"
+              />
+            </div>
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-[120px] h-[120px] object-cover"
+              className="w-[72px] h-[72px] object-cover"
               src="https://picsum.photos/200/300?random=2"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-[120px] h-[120px] object-cover"
+              className="w-[72px] h-[72px] object-cover"
               src="https://picsum.photos/200/300?random=3"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-[120px] h-[120px] object-cover"
+              className="w-[72px] h-[72px] object-cover"
               src="https://picsum.photos/200/300?random=4"
             />
           </SwiperSlide>

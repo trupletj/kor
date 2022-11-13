@@ -12,39 +12,39 @@ const OutgoingDetails = () => {
       <Navbar title="통합조회" />
       <Container>
         <div>
-          <section className="border-b-2 border-[#D9DAD9] mt-4 mb-4 py-4 text-[25px] leading-7">
+          <section className="border-b border-[#D9DAD9] mt-4 mb-2 py-2 text-[15px] ">
             <ul>
-              <li className="py-2]">
+              <li className="py-1">
                 <h1 className="font-bold">발신일</h1>
-                <h1 className="text-[20px]">2022.05.21 13:07</h1>
+                <h1 className="text-[12px]">2022.05.21 13:07</h1>
               </li>
-              <li className="py-2">
+              <li className="py-1">
                 <h1 className="font-bold">발신자</h1>
-                <h1 className="text-[20px]">시큐오넷 - 김시남</h1>
+                <h1 className="text-[12px]">시큐오넷 - 김시남</h1>
               </li>
-              <li className="py-2">
+              <li className="py-1">
                 <h1 className="font-bold">수신자</h1>
-                <h1 className="text-[20px]">
+                <h1 className="text-[12px]">
                   주식회사 헌트 - 이정재 - handsome@guy.com
                 </h1>
               </li>
-              <li className="py-2">
+              <li className="py-1">
                 <h1 className="font-bold">제목</h1>
-                <h1 className="text-[20px]">
+                <h1 className="text-[12px]">
                   [(주)시큐오넷] 피카피카 원목 완구 인증정보를 전달 드립니다.
                 </h1>
               </li>
-              <li className="py-2">
+              <li className="py-1">
                 <h1 className="font-bold">내용</h1>
-                <h1 className="text-[20px]">인증서 정보 확인 부탁드립니다</h1>
+                <h1 className="text-[12px]">인증서 정보 확인 부탁드립니다</h1>
               </li>
             </ul>
           </section>
-          <div className="flex flex-col items-start mb-4 w-full">
-            <div className="bg-[#D9DAD9] py-1 px-2 rounded-t shadow text-[18px]">
+          <div className="flex flex-col items-start mb-2 w-full">
+            <div className="bg-[#D9DAD9] px-1 rounded-t shadow text-[11px]">
               안전확인 신고서
             </div>
-            <div className="p-2 shadow-md text-[22px] w-full">
+            <div className="p-2 shadow-md w-full">
               <div className="flex w-full ">
                 <div className="w-1/4 aspect-square overflow-hidden">
                   <img
@@ -52,7 +52,7 @@ const OutgoingDetails = () => {
                     className="object-cover h-[110px] w-[130px] "
                   />
                 </div>
-                <div className="w-3/4 flex flex-col leading-9 pl-2">
+                <div className="w-3/4 flex flex-col items-start  justify-center text-left pl-2">
                   <p>피카피카 원목 완구</p>
 
                   <p>제조업체명 : Ningbo</p>
@@ -61,8 +61,8 @@ const OutgoingDetails = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-start text-[22px] w-full">
-            <div className="bg-[#C2CFFE] py-1 px-2 rounded-t shadow text-[18px]">
+          <div className="flex flex-col items-start w-full">
+            <div className="bg-[#C2CFFE]  px-1 rounded-t shadow text-[11px]">
               안전확인 신고서
             </div>
             <div className="p-2 shadow-md w-full">
@@ -73,7 +73,7 @@ const OutgoingDetails = () => {
                     className="object-cover h-[110px] w-[130px] "
                   />
                 </div>
-                <div className="w-3/4 flex flex-col leading-9  pl-2">
+                <div className="w-3/4 flex flex-col justify-center  pl-2">
                   <p>피카피카 원목 완구</p>
 
                   <p>제조업체명 : Ningbo</p>

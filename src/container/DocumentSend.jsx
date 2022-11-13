@@ -22,11 +22,11 @@ const DocumentSend = () => {
       <form onSubmit={handleSubmit(onSubmit)}>
         <Container>
           <div className="w-full">
-            <ul className="w-full border-b border-[#D9DAD9] text-[25px]">
+            <ul className="w-full border-b border-[#D9DAD9] text-[15px]">
               <li className="flex my-4">
                 <label className="w-1/4 font-bold">E-mail</label>
                 <input
-                  className="border-b border-[#D9DAD9] mx-2 w-3/4"
+                  className="border-b border-[#D9DAD9] mx-1 w-3/4"
                   type="text"
                   {...register("Email", {
                     required: true,
@@ -64,18 +64,18 @@ const DocumentSend = () => {
                 <label className="w-1/4 font-bold">내 용</label>
 
                 <textarea
-                  className="border border-[#D9DAD9] mx-2 w-3/4 h-[150px]"
+                  className="border border-[#D9DAD9] mx-2 w-3/4 h-[90px]"
                   {...register("content", {})}
                 />
               </li>
             </ul>
           </div>
-          <div className="w-full ">
+          <div className="w-full mb-[60px]">
             <ul className="text-[22px]">
-              <li className="w-full relative my-4">
+              <li className="w-full relative my-2">
                 <div className="flex items-stretch justify-between rounded shadow-md">
                   <div
-                    className="text-[17px] p-1 bg-[#D9DAD9] rounded-l"
+                    className="text-[10px] p-1 bg-[#EBEBEB] rounded-l"
                     style={{ writingMode: "vertical-rl" }}
                   >
                     안 전 확 인 신 고 서
@@ -84,67 +84,67 @@ const DocumentSend = () => {
                     className="w-full
                   "
                   >
-                    <div className="flex h-full w-full px-2 text-[22px] items-center">
-                      <img
-                        src="https://picsum.photos/200/600 "
-                        className="object-cover h-[120px] w-[130px]"
-                      />
-
-                      <div className=" flex flex-col justify-between pl-2">
-                        <p>영유아 원목 장난감</p>
-                        <p>제조업체명 : Ningbo</p>
-                        <p>문서구분 : B064R1114-2001</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="w-full relative my-4">
-                <div className="flex items-stretch justify-between rounded shadow-md">
-                  <div
-                    className="text-[17px] p-1 bg-[#C2CFFE] rounded-l"
-                    style={{ writingMode: "vertical-rl" }}
-                  >
-                    안 전 확 인 신 고 서
-                  </div>
-                  <div
-                    className="w-full
-                  "
-                  >
-                    <div className="flex h-full w-full px-2 text-[22px] items-center">
-                      <img
-                        src="https://picsum.photos/200/600 "
-                        className="object-cover h-[120px] w-[130px]"
-                      />
-
-                      <div className=" flex flex-col justify-between pl-2">
-                        <p>영유아 원목 장난감</p>
-                        <p>제조업체명 : Ningbo</p>
-                        <p>문서구분 : B064R1114-2001</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li className="w-full relative my-4">
-                <div className="flex items-stretch justify-between rounded shadow-md">
-                  <div
-                    className="text-[17px] p-1 bg-[#C2CFFE] rounded-l"
-                    style={{ writingMode: "vertical-rl" }}
-                  >
-                    안 전 확 인 신 고 서
-                  </div>
-                  <div
-                    className="w-full
-                  "
-                  >
-                    <div className="flex h-full w-full px-2 text-[22px] items-center">
+                    <div className="flex h-full w-full px-1 text-[11px] items-center">
                       <img
                         src="https://picsum.photos/120/130?random=3 "
-                        className="object-cover h-[120px] w-[130px]"
+                        className="object-cover h-[72px] w-[72px]"
                       />
 
-                      <div className=" flex flex-col justify-between pl-2">
+                      <div className=" flex flex-col justify-between pl-1">
+                        <p>영유아 원목 장난감</p>
+                        <p>제조업체명 : Ningbo</p>
+                        <p>문서구분 : B064R1114-2001</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li className="w-full relative my-2">
+                <div className="flex items-stretch justify-between rounded shadow-md">
+                  <div
+                    className="text-[10px] p-1 bg-[#C2CFFE] rounded-l"
+                    style={{ writingMode: "vertical-rl" }}
+                  >
+                    안 전 확 인 신 고 서
+                  </div>
+                  <div
+                    className="w-full
+                  "
+                  >
+                    <div className="flex h-full w-full px-1 text-[11px] items-center">
+                      <img
+                        src="https://picsum.photos/120/130?random=3 "
+                        className="object-cover h-[72px] w-[72px]"
+                      />
+
+                      <div className=" flex flex-col justify-between pl-1">
+                        <p>영유아 원목 장난감</p>
+                        <p>제조업체명 : Ningbo</p>
+                        <p>문서구분 : B064R1114-2001</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li className="w-full relative my-2">
+                <div className="flex items-stretch justify-between rounded shadow-md">
+                  <div
+                    className="text-[10px] p-1 bg-[#C2CFFE] rounded-l"
+                    style={{ writingMode: "vertical-rl" }}
+                  >
+                    안 전 확 인 신 고 서
+                  </div>
+                  <div
+                    className="w-full
+                  "
+                  >
+                    <div className="flex h-full w-full px-1 text-[11px] items-center">
+                      <img
+                        src="https://picsum.photos/120/130?random=3 "
+                        className="object-cover h-[72px] w-[72px]"
+                      />
+
+                      <div className=" flex flex-col justify-between pl-1">
                         <p>영유아 원목 장난감</p>
                         <p>제조업체명 : Ningbo</p>
                         <p>문서구분 : B064R1114-2001</p>
@@ -157,19 +157,19 @@ const DocumentSend = () => {
           </div>
         </Container>
         <div
-          className="w-full h-[72px]
+          className="w-full h-[50px]
               absolute left-0 bottom-0
               flex justify-center items-center
-              z-30 shadow
+              z-30 shadow bg-white
              
 "
         >
-          <button className="bg-[#B7B7B7] w-[155px] h-[45px] text-[25px] font-bold border-emboss text-white rounded mx-2">
+          <button className="bg-[#B7B7B7] w-[90px] h-[27px] text-[15px] font-bold border-emboss text-white rounded mx-2">
             취 소
           </button>
           <button
             type="submit"
-            className="bg-[#2E3192]  w-[155px] h-[45px] text-[25px] font-bold border-emboss text-white rounded mx-2"
+            className="bg-[#2E3192]  w-[90px] h-[27px] text-[15px] font-bold border-emboss text-white rounded mx-2"
           >
             발 송
           </button>

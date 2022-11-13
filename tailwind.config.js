@@ -8,9 +8,9 @@ module.exports = {
         nanum: ['"NanumSquare"', "sans-serif"],
       },
       fontSize: {
-        base: ["28px"],
-        xl: ["40px"],
-        "2xl": ["70px"],
+        base: ["17px"],
+        xl: ["24px"],
+        "2xl": ["42px"],
       },
       fontWeight: {
         light: 300,

@@ -12,13 +12,13 @@ export default function UserForm() {
   console.log(errors);
 
   const inputClass =
-    "border-[1px] border-[#707070] rounded-sm px-2 mb-2 h-[40px] outline-none accleration-none";
+    "border-[1px] border-[#707070] rounded-sm px-2 mb-1 h-[24px] outline-none accleration-none text-[12px]";
 
   return (
     <div className="flex flex-col">
       <div className="flex flex-row border-b w-full pb-2">
-        <p className="mr-[30px] font-extrabold text-base">ID</p>
-        <p className="text-[25px]">securenet1</p>
+        <p className="mr-[30px] font-extrabold">ID</p>
+        <p className="text-[15px]">securenet1</p>
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col ">
@@ -86,7 +86,7 @@ export default function UserForm() {
             {...register("note", { required: true })}
           />
         </div>
-        <div className="w-full flex  mb-[80px]">
+        <div className="w-full flex  mb-[48px]">
           <div className="font-extrabold formHeader ">권한</div>
           <h1 className="flex-grow text-[#737171] mb-2 text-center formHeader font-extrabold">
             <Link to="/"> 파일업로드</Link> /{" "}
@@ -94,11 +94,11 @@ export default function UserForm() {
           </h1>
         </div>
         <div className="flex justify-center  text-white formHeader">
-          <button className="outline-none w-[124px] h-[50px] bg-[#959595] px-6 py-1 rounded mx-2">
+          <button className="outline-none w-[90px] h-[35px] bg-[#959595] px-6 py-1 rounded mx-2">
             취 소
           </button>
           <button
-            className="outline-none w-[124px] h-[50px] bg-[#959595] px-6 py-1 rounded mx-2"
+            className="outline-none w-[90px] h-[35px] bg-[#959595] px-6 py-1 rounded mx-2"
             type="submit"
           >
             저 장

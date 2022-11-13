@@ -18,13 +18,13 @@ const OutgoingInformation = () => {
     <Wrapper>
       <Navbar title="발신정보" />
       <Container>
-        <div className="text-[20px]">
+        <div className="text-[12px]">
           <ul>
             <li
-              className="shadow-md rounded-lg my-3 relative"
+              className="shadow-md rounded-lg my-4 relative"
               onClick={handleClick}
             >
-              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
+              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[15px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
                   발 신
@@ -32,8 +32,8 @@ const OutgoingInformation = () => {
                 <div className="w-2/12 flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="26"
+                    width="8"
+                    height="15"
                     viewBox="0 0 20.017 38.988"
                   >
                     <path
@@ -79,7 +79,7 @@ const OutgoingInformation = () => {
                   </span>
                 </div>
               </div>
-              <div className="absolute bottom-4 right-2 text-[17px]">
+              <div className="absolute bottom-4 right-2 text-[10px]">
                 <ul className="flex flex-row">
                   <li>
                     <span className="bg-[#898989] text-white p-2 rounded ml-1 first:ml-0">
@@ -95,10 +95,10 @@ const OutgoingInformation = () => {
               </div>
             </li>
             <li
-              className="shadow-md rounded-lg my-3 relative"
+              className="shadow-md rounded-lg my-4 relative"
               onClick={handleClick}
             >
-              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
+              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[15px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
                   발 신
@@ -106,8 +106,8 @@ const OutgoingInformation = () => {
                 <div className="w-2/12 flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="26"
+                    width="8"
+                    height="15"
                     viewBox="0 0 20.017 38.988"
                   >
                     <path
@@ -153,7 +153,7 @@ const OutgoingInformation = () => {
                   </span>
                 </div>
               </div>
-              <div className="absolute bottom-4 right-2 text-[17px]">
+              <div className="absolute bottom-4 right-2 text-[10px]">
                 <ul className="flex flex-row">
                   <li>
                     <span className="bg-[#898989] text-white p-2 rounded ml-1 first:ml-0">
@@ -169,10 +169,10 @@ const OutgoingInformation = () => {
               </div>
             </li>
             <li
-              className="shadow-md rounded-lg my-3 relative"
+              className="shadow-md rounded-lg my-4 relative"
               onClick={handleClick}
             >
-              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
+              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[15px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
                   발 신
@@ -180,8 +180,8 @@ const OutgoingInformation = () => {
                 <div className="w-2/12 flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="26"
+                    width="8"
+                    height="15"
                     viewBox="0 0 20.017 38.988"
                   >
                     <path
@@ -227,7 +227,7 @@ const OutgoingInformation = () => {
                   </span>
                 </div>
               </div>
-              <div className="absolute bottom-4 right-2 text-[17px]">
+              <div className="absolute bottom-4 right-2 text-[10px]">
                 <ul className="flex flex-row">
                   <li>
                     <span className="bg-[#898989] text-white p-2 rounded ml-1 first:ml-0">
@@ -243,10 +243,10 @@ const OutgoingInformation = () => {
               </div>
             </li>
             <li
-              className="shadow-md rounded-lg my-3 relative"
+              className="shadow-md rounded-lg my-4 relative"
               onClick={handleClick}
             >
-              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[25px]">
+              <div className="w-full bg-[#cccccc] flex flex-row rounded-md p-1 font-bold text-[15px]">
                 <div className="w-1/12"></div>
                 <div className="w-1/3 flex items-center justify-center">
                   발 신
@@ -254,8 +254,8 @@ const OutgoingInformation = () => {
                 <div className="w-2/12 flex items-center justify-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="14"
-                    height="26"
+                    width="8"
+                    height="15"
                     viewBox="0 0 20.017 38.988"
                   >
                     <path
@@ -301,7 +301,7 @@ const OutgoingInformation = () => {
                   </span>
                 </div>
               </div>
-              <div className="absolute bottom-4 right-2 text-[17px]">
+              <div className="absolute bottom-4 right-2 text-[10px]">
                 <ul className="flex flex-row">
                   <li>
                     <span className="bg-[#898989] text-white p-2 rounded ml-1 first:ml-0">
