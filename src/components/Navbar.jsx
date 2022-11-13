@@ -38,7 +38,9 @@ const Navbar = (props) => {
 "
       >
         <div className="w-1/3 flex items-center">
-          <MenuButton onClick={handleMenuButton} />
+          <button onClick={handleMenuButton}>
+            <MenuButton />
+          </button>
         </div>
         {searchBarShow ? (
           <input
