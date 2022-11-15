@@ -31,8 +31,8 @@ const SelectModal = () => {
       </div>
       {modalShow && (
         <>
-          <div className="fixed inset-0 bg-black bg-opacity-70 overflow-y-auto h-full w-full px-4 z-50">
-            <div className="relative   max-w-[480px] top-[56px] mx-auto text-center ">
+          <div className="fixed inset-0 bg-black bg-opacity-70 overflow-y-auto h-full w-full px-4 z-50 font-bold">
+            <div className="relative max-w-[420px] top-[56px] mx-auto text-center px-[18px]">
               <div className=" w-full bg-[#D7D7D7] flex flex-col">
                 {options.map((option, i) => {
                   return (

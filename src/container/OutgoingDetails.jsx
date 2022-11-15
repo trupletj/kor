@@ -12,31 +12,31 @@ const OutgoingDetails = () => {
       <Navbar title="통합조회" />
       <Container>
         <div>
-          <section className="border-b border-[#D9DAD9] mt-4 mb-2 py-2 text-[15px] ">
+          <section className="border-b border-[#D9DAD9] mt-4 mb-2 py-2 text-[16px] ">
             <ul>
               <li className="py-1">
                 <h1 className="font-bold">발신일</h1>
-                <h1 className="text-[12px]">2022.05.21 13:07</h1>
+                <h1 className="text-[13px]">2022.05.21 13:07</h1>
               </li>
               <li className="py-1">
                 <h1 className="font-bold">발신자</h1>
-                <h1 className="text-[12px]">시큐오넷 - 김시남</h1>
+                <h1 className="text-[13px]">시큐오넷 - 김시남</h1>
               </li>
               <li className="py-1">
                 <h1 className="font-bold">수신자</h1>
-                <h1 className="text-[12px]">
+                <h1 className="text-[13px]">
                   주식회사 헌트 - 이정재 - handsome@guy.com
                 </h1>
               </li>
               <li className="py-1">
                 <h1 className="font-bold">제목</h1>
-                <h1 className="text-[12px]">
+                <h1 className="text-[13px]">
                   [(주)시큐오넷] 피카피카 원목 완구 인증정보를 전달 드립니다.
                 </h1>
               </li>
               <li className="py-1">
                 <h1 className="font-bold">내용</h1>
-                <h1 className="text-[12px]">인증서 정보 확인 부탁드립니다</h1>
+                <h1 className="text-[13px]">인증서 정보 확인 부탁드립니다</h1>
               </li>
             </ul>
           </section>
@@ -46,13 +46,13 @@ const OutgoingDetails = () => {
             </div>
             <div className="p-2 shadow-md w-full">
               <div className="flex w-full ">
-                <div className="w-1/4 aspect-square overflow-hidden">
+                <div className="w-[100px] aspect-square overflow-hidden">
                   <img
-                    src="https://picsum.photos/200/600 "
-                    className="object-cover h-[110px] w-[130px] "
+                    src="https://picsum.photos/400/600 "
+                    className="object-cover h-[100px] w-[100px] "
                   />
                 </div>
-                <div className="w-3/4 flex flex-col items-start  justify-center text-left pl-2">
+                <div className="flex flex-col items-start  justify-center text-left pl-2">
                   <p>피카피카 원목 완구</p>
 
                   <p>제조업체명 : Ningbo</p>
@@ -67,10 +67,10 @@ const OutgoingDetails = () => {
             </div>
             <div className="p-2 shadow-md w-full">
               <div className="flex w-full  ">
-                <div className="w-1/4 aspect-square overflow-hidden">
+                <div className="w-[100px] aspect-square overflow-hidden">
                   <img
-                    src="https://picsum.photos/200/600 "
-                    className="object-cover h-[110px] w-[130px] "
+                    src="https://picsum.photos/500/600 "
+                    className="object-cover h-[100px] w-[100px] "
                   />
                 </div>
                 <div className="w-3/4 flex flex-col justify-center  pl-2">

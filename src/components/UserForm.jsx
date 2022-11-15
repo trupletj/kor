@@ -93,7 +93,7 @@ export default function UserForm() {
             <Link to="/"> 성적서연결관리</Link> /<Link to="/"> 발신</Link>
           </h1>
         </div>
-        <div className="flex justify-center  text-white formHeader">
+        <div className="flex justify-center  text-white text-[15px] font-bold">
           <button className="outline-none w-[90px] h-[35px] bg-[#959595] px-6 py-1 rounded mx-2">
             취 소
           </button>

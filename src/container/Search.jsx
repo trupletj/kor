@@ -17,10 +17,10 @@ const Search = () => {
           <ul>
             <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[84px] overflow-hidden mr-[12px]">
+                <div className="w-[100px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=1"
-                    className="object-contain w-[84px] "
+                    className="object-contain w-[100px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -44,10 +44,10 @@ const Search = () => {
             </li>
             <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[84px] overflow-hidden mr-[12px]">
+                <div className="w-[100px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=2"
-                    className="object-contain w-[84px] "
+                    className="object-contain w-[100px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -71,10 +71,10 @@ const Search = () => {
             </li>
             <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[84px] overflow-hidden mr-[12px]">
+                <div className="w-[100px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=3"
-                    className="object-contain w-[84px] "
+                    className="object-contain w-[100px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -102,10 +102,10 @@ const Search = () => {
           <ul>
             <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[84px] overflow-hidden mr-[12px]">
+                <div className="w-[100px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=4"
-                    className="object-contain w-[84px] "
+                    className="object-contain w-[100px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -133,10 +133,10 @@ const Search = () => {
           <ul>
             <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[84px] overflow-hidden mr-[12px]">
+                <div className="w-[100px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=5"
-                    className="object-contain w-[84px] "
+                    className="object-contain w-[100px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
@@ -160,10 +160,10 @@ const Search = () => {
             </li>
             <li className="mb-[12px]">
               <div className="flex w-full ">
-                <div className="w-[84px] overflow-hidden mr-[12px]">
+                <div className="w-[100px] overflow-hidden mr-[12px]">
                   <img
                     src="https://picsum.photos/140/130?random=6"
-                    className="object-contain w-[84px] "
+                    className="object-contain w-[100px] "
                   />
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
