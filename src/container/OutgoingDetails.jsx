@@ -12,7 +12,7 @@ const OutgoingDetails = () => {
       <Navbar title="통합조회" />
       <Container>
         <div>
-          <section className="border-b border-[#D9DAD9] mt-4 mb-2 py-2 text-[16px] ">
+          <section className="border-b border-[#D9DAD9] mt-4 mb-4 py-2 text-[16px] ">
             <ul>
               <li className="py-1">
                 <h1 className="font-bold">발신일</h1>
@@ -41,10 +41,10 @@ const OutgoingDetails = () => {
             </ul>
           </section>
           <div className="flex flex-col items-start mb-2 w-full">
-            <div className="bg-[#D9DAD9] px-1 rounded-t shadow text-[11px]">
+            <div className="bg-[#D9DAD9] px-3 py-1 rounded-t dropshadow  text-[12px]">
               안전확인 신고서
             </div>
-            <div className="p-2 shadow-md w-full">
+            <div className="p-2 dropshadow rounded-sm w-full px-4">
               <div className="flex w-full ">
                 <div className="w-[100px] aspect-square overflow-hidden">
                   <img
@@ -61,11 +61,11 @@ const OutgoingDetails = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-start w-full">
-            <div className="bg-[#C2CFFE]  px-1 rounded-t shadow text-[11px]">
+          <div className="flex flex-col items-start w-full ">
+            <div className="bg-[#c2cffe] px-3 py-1 rounded-t dropshadow  text-[12px]">
               안전확인 신고서
             </div>
-            <div className="p-2 shadow-md w-full">
+            <div className="p-2 dropshadow rounded-sm w-full px-4">
               <div className="flex w-full  ">
                 <div className="w-[100px] aspect-square overflow-hidden">
                   <img
