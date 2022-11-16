@@ -41,8 +41,8 @@ const OutgoingDetails = () => {
             </ul>
           </section>
           <div className="flex flex-col items-start mb-2 w-full">
-            <div className="bg-[#D9DAD9] px-3 py-1 rounded-t dropshadow  text-[15px]">
-              안전확인 신고서
+            <div className="bg-[#D9DAD9] px-3 py-1 rounded-t dropshadow font-bold text-[15px]">
+              안전확인신고서
             </div>
             <div className="p-2 dropshadow rounded-sm w-full px-4">
               <div className="flex w-full ">
@@ -62,8 +62,8 @@ const OutgoingDetails = () => {
             </div>
           </div>
           <div className="flex flex-col items-start w-full ">
-            <div className="bg-[#c2cffe] px-3 py-1 rounded-t dropshadow  text-[15px]">
-              안전확인 신고서
+            <div className="bg-[#c2cffe] px-3 py-1 rounded-t dropshadow font-bold text-[15px]">
+              검사 성적서
             </div>
             <div className="p-2 dropshadow rounded-sm w-full px-4">
               <div className="flex w-full  ">
