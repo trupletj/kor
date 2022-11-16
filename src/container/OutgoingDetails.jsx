@@ -20,7 +20,7 @@ const OutgoingDetails = () => {
               </li>
               <li className="py-1">
                 <h1 className="font-bold">발신자</h1>
-                <h1 className="text-[13px]">시큐오넷 - 김시남</h1>
+                <h1 className="text-[13px]">시큐어넷 - 김시남</h1>
               </li>
               <li className="py-1">
                 <h1 className="font-bold">수신자</h1>
