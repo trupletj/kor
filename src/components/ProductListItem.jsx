@@ -44,6 +44,10 @@ const ProductListItem = () => {
           slidesPerView={4}
           spaceBetween={10}
           modules={[Navigation]}
+          navigation={{
+            nextEl: ".review-swiper-button-next",
+            prevEl: ".review-swiper-button-prev",
+          }}
         >
           <SwiperSlide>
             <div className="w">
@@ -71,8 +75,14 @@ const ProductListItem = () => {
               src="https://picsum.photos/200/300?random=4"
             />
           </SwiperSlide>
+          <SwiperSlide>
+            <img
+              className="w-[80px] h-[80px] object-cover"
+              src="https://picsum.photos/200/300?random=5"
+            />
+          </SwiperSlide>
           <div className="absolute z-50 right-5 top-0 h-full w-5 bg-gradient-to-l  from-white flex items-center justify-end"></div>
-          <div className="absolute z-50 right-0 top-0 h-full w-5 bg-white flex items-center justify-end">
+          <button className="absolute z-50 right-0 top-0 h-full w-5 bg-white flex items-center justify-end review-swiper-button-next">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="13"
@@ -87,7 +97,7 @@ const ProductListItem = () => {
                 fill="#4c5053"
               />
             </svg>
-          </div>
+          </button>
         </Swiper>
       )}
     </div>
