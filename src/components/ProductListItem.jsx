@@ -40,7 +40,7 @@ const ProductListItem = () => {
       </div>
       {show && (
         <Swiper
-          className="mb-1"
+          className="mb-1 relative"
           slidesPerView={4}
           spaceBetween={10}
           modules={[Navigation]}
@@ -71,6 +71,23 @@ const ProductListItem = () => {
               src="https://picsum.photos/200/300?random=4"
             />
           </SwiperSlide>
+          <div className="absolute z-50 right-5 top-0 h-full w-5 bg-gradient-to-l  from-white flex items-center justify-end"></div>
+          <div className="absolute z-50 right-0 top-0 h-full w-5 bg-white flex items-center justify-end">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="13"
+              height="27.991"
+              viewBox="0 0 18.011 27.991"
+            >
+              <path
+                id="_"
+                data-name=">"
+                d="M4405.992,1435l9.746-13.995-9.746-14h8.266l9.745,14L4414.258,1435Z"
+                transform="translate(-4405.992 -1407.004)"
+                fill="#4c5053"
+              />
+            </svg>
+          </div>
         </Swiper>
       )}
     </div>

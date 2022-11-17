@@ -53,7 +53,7 @@ const OutgoingInformation = () => {
               <div className="grid grid-cols-2 py-1">
                 <div className="flex flex-col items-start justify-center border-b border-r border-[#D9DAD9] py-1 px-2 ">
                   <span className="flex flex-row">
-                    <p>회사명 </p> : <p>시큐오넷</p>
+                    <p>회사명 </p> : <p>시큐어넷</p>
                   </span>
                   <span className="flex flex-row">
                     <p>담당자 </p> : <p>김시남</p>
@@ -127,7 +127,7 @@ const OutgoingInformation = () => {
               <div className="grid grid-cols-2 py-1">
                 <div className="flex flex-col items-start justify-center border-b border-r border-[#D9DAD9] py-1 px-2 ">
                   <span className="flex flex-row">
-                    <p>회사명 </p> : <p>시큐오넷</p>
+                    <p>회사명 </p> : <p>시큐어넷</p>
                   </span>
                   <span className="flex flex-row">
                     <p>담당자 </p> : <p>김시남</p>
@@ -201,7 +201,7 @@ const OutgoingInformation = () => {
               <div className="grid grid-cols-2 py-1">
                 <div className="flex flex-col items-start justify-center border-b border-r border-[#D9DAD9] py-1 px-2 ">
                   <span className="flex flex-row">
-                    <p>회사명 </p> : <p>시큐오넷</p>
+                    <p>회사명 </p> : <p>시큐어넷</p>
                   </span>
                   <span className="flex flex-row">
                     <p>담당자 </p> : <p>김시남</p>
@@ -275,7 +275,7 @@ const OutgoingInformation = () => {
               <div className="grid grid-cols-2 py-1">
                 <div className="flex flex-col items-start justify-center border-b border-r border-[#D9DAD9] py-1 px-2 ">
                   <span className="flex flex-row">
-                    <p>회사명 </p> : <p>시큐오넷</p>
+                    <p>회사명 </p> : <p>시큐어넷</p>
                   </span>
                   <span className="flex flex-row">
                     <p>담당자 </p> : <p>김시남</p>
@@ -349,7 +349,7 @@ const OutgoingInformation = () => {
               <div className="grid grid-cols-2 py-1">
                 <div className="flex flex-col items-start justify-center border-b border-r border-[#D9DAD9] py-1 px-2 ">
                   <span className="flex flex-row">
-                    <p>회사명 </p> : <p>시큐오넷</p>
+                    <p>회사명 </p> : <p>시큐어넷</p>
                   </span>
                   <span className="flex flex-row">
                     <p>담당자 </p> : <p>김시남</p>
