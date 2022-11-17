@@ -42,7 +42,7 @@ const ProductListItem = () => {
         <Swiper
           className="mb-1 relative"
           slidesPerView={4}
-          spaceBetween={10}
+          spaceBetween={1}
           modules={[Navigation]}
           navigation={{
             nextEl: ".review-swiper-button-next",
@@ -52,32 +52,32 @@ const ProductListItem = () => {
           <SwiperSlide>
             <div className="w">
               <img
-                className="w-[80px] h-[80px] object-cover"
+                className="w-[85px] h-[80px] object-cover"
                 src="https://picsum.photos/200/300?random=1"
               />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-[80px] h-[80px] object-cover"
+              className="w-[85px] h-[80px] object-cover"
               src="https://picsum.photos/200/300?random=2"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-[80px] h-[80px] object-cover"
+              className="w-[85px] h-[80px] object-cover"
               src="https://picsum.photos/200/300?random=3"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-[80px] h-[80px] object-cover"
+              className="w-[85px] h-[80px] object-cover"
               src="https://picsum.photos/200/300?random=4"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="w-[80px] h-[80px] object-cover"
+              className="w-[85px] h-[80px] object-cover"
               src="https://picsum.photos/200/300?random=5"
             />
           </SwiperSlide>
